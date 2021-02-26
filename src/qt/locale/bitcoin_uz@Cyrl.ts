@@ -138,8 +138,8 @@
         <translation>Дискдаги блоклар қайта индексланмоқда...</translation>
     </message>
     <message>
-        <source>Send coins to a Litecoin address</source>
-        <translation>Тангаларни Litecoin манзилига жўнатиш</translation>
+        <source>Send coins to a Ass-Pennies address</source>
+        <translation>Тангаларни Ass-Pennies манзилига жўнатиш</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -162,8 +162,8 @@
         <translation>Хабарни &amp;тасдиқлаш...</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>Ass-Pennies</source>
+        <translation>Ass-Pennies</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -186,12 +186,12 @@
         <translation>Ҳамёнингизга тегишли махфий калитларни кодлаш</translation>
     </message>
     <message>
-        <source>Sign messages with your Litecoin addresses to prove you own them</source>
-        <translation>Litecoin манзилидан унинг эгаси эканлигингизни исботлаш учун хабарлар ёзинг</translation>
+        <source>Sign messages with your Ass-Pennies addresses to prove you own them</source>
+        <translation>Ass-Pennies манзилидан унинг эгаси эканлигингизни исботлаш учун хабарлар ёзинг</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
-        <translation>Хабарларни махсус Litecoin манзилларингиз билан ёзилганлигига ишонч ҳосил қилиш учун уларни тасдиқланг</translation>
+        <source>Verify messages to ensure they were signed with specified Ass-Pennies addresses</source>
+        <translation>Хабарларни махсус Ass-Pennies манзилларингиз билан ёзилганлигига ишонч ҳосил қилиш учун уларни тасдиқланг</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -210,8 +210,8 @@
         <translation>Ички ойналар асбоблар панели</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>Тўловлар (QR кодлари ва litecoin ёрдамида яратишлар: URI’лар) сўраш</translation>
+        <source>Request payments (generates QR codes and ass-pennies: URIs)</source>
+        <translation>Тўловлар (QR кодлари ва ass-pennies ёрдамида яратишлар: URI’лар) сўраш</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -222,16 +222,16 @@
         <translation>Фойдаланилган қабул қилинган манзиллар ва ёрлиқлар рўйхатини кўрсатиш</translation>
     </message>
     <message>
-        <source>Open a litecoin: URI or payment request</source>
-        <translation>Litecoin’ни очиш: URI ёки тўлов сўрови</translation>
+        <source>Open a ass-pennies: URI or payment request</source>
+        <translation>Ass-Pennies’ни очиш: URI ёки тўлов сўрови</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Буйруқлар сатри мосламалари</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Litecoin network</source>
-        <translation><numerusform>%n та Litecoin тармоғига фаол уланиш мавжуд</numerusform></translation>
+        <source>%n active connection(s) to Ass-Pennies network</source>
+        <translation><numerusform>%n та Ass-Pennies тармоғига фаол уланиш мавжуд</numerusform></translation>
     </message>
     <message>
         <source>%1 behind</source>
@@ -425,8 +425,8 @@
         <translation>Бошқа маълумотлар директориясида фойдаланинг:</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>Ass-Pennies</source>
+        <translation>Ass-Pennies</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -581,8 +581,8 @@
         <translation>Шакл</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Кўрсатилган маълумот эскирган бўлиши мумкин. Ҳамёнингиз алоқа ўрнатилгандан сўнг Litecoin тармоқ билан автоматик тарзда синхронланади, аммо жараён ҳалигача тугалланмади.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Ass-Pennies network after a connection is established, but this process has not completed yet.</source>
+        <translation>Кўрсатилган маълумот эскирган бўлиши мумкин. Ҳамёнингиз алоқа ўрнатилгандан сўнг Ass-Pennies тармоқ билан автоматик тарзда синхронланади, аммо жараён ҳалигача тугалланмади.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -662,8 +662,8 @@
         <translation>Миқдори</translation>
     </message>
     <message>
-        <source>Enter a Litecoin address (e.g. %1)</source>
-        <translation>Litecoin манзилини киритинг (масалан.  %1)</translation>
+        <source>Enter a Ass-Pennies address (e.g. %1)</source>
+        <translation>Ass-Pennies манзилини киритинг (масалан.  %1)</translation>
     </message>
     <message>
         <source>%1 m</source>
@@ -1163,8 +1163,8 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Litecoin Core</source>
-        <translation>Litecoin Core</translation>
+        <source>Ass-Pennies Core</source>
+        <translation>Ass-Pennies Core</translation>
     </message>
     <message>
         <source>Information</source>

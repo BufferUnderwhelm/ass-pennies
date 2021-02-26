@@ -66,12 +66,12 @@
         <translation>адрасы Прымання</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Тут знаходзяцца Litecoin-адрасы для высылання плацяжоў. Заўсёды спраўджвайце колькасць і адрас прызначэння перад здзяйсненнем транзакцыі.</translation>
+        <source>These are your Ass-Pennies addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Тут знаходзяцца Ass-Pennies-адрасы для высылання плацяжоў. Заўсёды спраўджвайце колькасць і адрас прызначэння перад здзяйсненнем транзакцыі.</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Тут знаходзяцца Litecoin-адрасы для прымання плацяжоў. Пажадана выкарыстоўваць новы адрас для кожнай транзакцыі.</translation>
+        <source>These are your Ass-Pennies addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Тут знаходзяцца Ass-Pennies-адрасы для прымання плацяжоў. Пажадана выкарыстоўваць новы адрас для кожнай транзакцыі.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -290,8 +290,8 @@
         <translation>Пераіндэксацыя блокаў на дыску...</translation>
     </message>
     <message>
-        <source>Send coins to a Litecoin address</source>
-        <translation>Даслаць манеты на Litecoin-адрас</translation>
+        <source>Send coins to a Ass-Pennies address</source>
+        <translation>Даслаць манеты на Ass-Pennies-адрас</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -314,8 +314,8 @@
         <translation>Праверыць паведамленне...</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>Ass-Pennies</source>
+        <translation>Ass-Pennies</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -338,12 +338,12 @@
         <translation>Зашыфраваць прыватныя ключы, якия належаць вашаму гаманцу</translation>
     </message>
     <message>
-        <source>Sign messages with your Litecoin addresses to prove you own them</source>
-        <translation>Падпісаць паведамленне з дапамогай Litecoin-адраса каб даказаць, што яно належыць вам</translation>
+        <source>Sign messages with your Ass-Pennies addresses to prove you own them</source>
+        <translation>Падпісаць паведамленне з дапамогай Ass-Pennies-адраса каб даказаць, што яно належыць вам</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
-        <translation>Спраўдзіць паведамленне з дапамогай Litecoin-адраса каб даказаць, што яно належыць вам</translation>
+        <source>Verify messages to ensure they were signed with specified Ass-Pennies addresses</source>
+        <translation>Спраўдзіць паведамленне з дапамогай Ass-Pennies-адраса каб даказаць, што яно належыць вам</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -358,8 +358,8 @@
         <translation>Дапамога</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>Запатрабаваць плацёж (генеруецца QR-код для litecoin URI)</translation>
+        <source>Request payments (generates QR codes and ass-pennies: URIs)</source>
+        <translation>Запатрабаваць плацёж (генеруецца QR-код для ass-pennies URI)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -370,8 +370,8 @@
         <translation>Паказаць спіс адрасоў і метак для прымання</translation>
     </message>
     <message>
-        <source>Open a litecoin: URI or payment request</source>
-        <translation>Адкрыць litecoin: URI ці запыт плацяжу</translation>
+        <source>Open a ass-pennies: URI or payment request</source>
+        <translation>Адкрыць ass-pennies: URI ці запыт плацяжу</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -643,8 +643,8 @@
         <translation>Вітаем</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>Ass-Pennies</source>
+        <translation>Ass-Pennies</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1209,8 +1209,8 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Litecoin Core</source>
-        <translation>Litecoin Core</translation>
+        <source>Ass-Pennies Core</source>
+        <translation>Ass-Pennies Core</translation>
     </message>
     <message>
         <source>Do you want to rebuild the block database now?</source>

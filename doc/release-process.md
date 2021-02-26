@@ -5,7 +5,7 @@ Before every release candidate:
 
 * Update translations (ping wumpus on IRC) see [translation_process.md](https://github.com/bitcoin/bitcoin/blob/master/doc/translation_process.md#synchronising-translations).
 
-* Update manpages, see [gen-manpages.sh](https://github.com/ass-pennies-project/ass-pennies/blob/master/contrib/devtools/README.md#gen-manpagessh).
+* Update manpages, see [gen-manpages.sh](https://github.com/asspennies-project/asspennies/blob/master/contrib/devtools/README.md#gen-manpagessh).
 * Update release candidate version in `configure.ac` (`CLIENT_VERSION_RC`)
 
 Before every minor and major release:
@@ -35,12 +35,12 @@ If you're using the automated script (found in [contrib/gitian-build.py](/contri
 Check out the source code in the following directory hierarchy.
 
     cd /path/to/your/toplevel/build
-    git clone https://github.com/ass-pennies-project/gitian.sigs.ltc.git
-    git clone https://github.com/ass-pennies-project/ass-pennies-detached-sigs.git
+    git clone https://github.com/asspennies-project/gitian.sigs.ltc.git
+    git clone https://github.com/asspennies-project/asspennies-detached-sigs.git
     git clone https://github.com/devrandom/gitian-builder.git
-    git clone https://github.com/ass-pennies-project/ass-pennies.git
+    git clone https://github.com/asspennies-project/asspennies.git
 
-### Ass-Pennies maintainers/release engineers, suggestion for writing release notes
+### AssPennies maintainers/release engineers, suggestion for writing release notes
 
 Write release notes. git shortlog helps a lot, for example:
 
@@ -63,7 +63,7 @@ If you're using the automated script (found in [contrib/gitian-build.py](/contri
 
 Setup Gitian descriptors:
 
-    pushd ./ass-pennies
+    pushd ./asspennies
     export SIGNER="(your Gitian key, ie bluematt, sipa, etc)"
     export VERSION=(new version, e.g. 0.8.0)
     git fetch
@@ -98,10 +98,10 @@ Create the macOS SDK tarball, see the [macOS build instructions](build-osx.md#de
 
 NOTE: Gitian is sometimes unable to download files. If you have errors, try the step below.
 
-By default, Gitian will fetch source files as needed. To cache them ahead of time, make sure you have checked out the tag you want to build in ass-pennies, then:
+By default, Gitian will fetch source files as needed. To cache them ahead of time, make sure you have checked out the tag you want to build in asspennies, then:
 
     pushd ./gitian-builder
-    make -C ../ass-pennies/depends download SOURCES_PATH=`pwd`/cache/common
+    make -C ../asspennies/depends download SOURCES_PATH=`pwd`/cache/common
     popd
 
 Only missing files will be fetched, so this is safe to re-run for each build.
@@ -109,50 +109,50 @@ Only missing files will be fetched, so this is safe to re-run for each build.
 NOTE: Offline builds must use the --url flag to ensure Gitian fetches only from local URLs. For example:
 
     pushd ./gitian-builder
-    ./bin/gbuild --url ass-pennies=/path/to/ass-pennies,signature=/path/to/sigs {rest of arguments}
+    ./bin/gbuild --url asspennies=/path/to/asspennies,signature=/path/to/sigs {rest of arguments}
     popd
 
 The gbuild invocations below <b>DO NOT DO THIS</b> by default.
 
-### Build and sign Ass-Pennies Core for Linux, Windows, and macOS:
+### Build and sign AssPennies Core for Linux, Windows, and macOS:
 
     export GITIAN_THREADS=2
     export GITIAN_MEMORY=3000
     
     pushd ./gitian-builder
-    ./bin/gbuild --num-make $GITIAN_THREADS --memory $GITIAN_MEMORY --commit ass-pennies=v${VERSION} ../ass-pennies/contrib/gitian-descriptors/gitian-linux.yml
-    ./bin/gsign --signer "$SIGNER" --release ${VERSION}-linux --destination ../gitian.sigs.ltc/ ../ass-pennies/contrib/gitian-descriptors/gitian-linux.yml
-    mv build/out/ass-pennies-*.tar.gz build/out/src/ass-pennies-*.tar.gz ../
+    ./bin/gbuild --num-make $GITIAN_THREADS --memory $GITIAN_MEMORY --commit asspennies=v${VERSION} ../asspennies/contrib/gitian-descriptors/gitian-linux.yml
+    ./bin/gsign --signer "$SIGNER" --release ${VERSION}-linux --destination ../gitian.sigs.ltc/ ../asspennies/contrib/gitian-descriptors/gitian-linux.yml
+    mv build/out/asspennies-*.tar.gz build/out/src/asspennies-*.tar.gz ../
 
-    ./bin/gbuild --num-make $GITIAN_THREADS --memory $GITIAN_MEMORY --commit ass-pennies=v${VERSION} ../ass-pennies/contrib/gitian-descriptors/gitian-win.yml
-    ./bin/gsign --signer "$SIGNER" --release ${VERSION}-win-unsigned --destination ../gitian.sigs.ltc/ ../ass-pennies/contrib/gitian-descriptors/gitian-win.yml
-    mv build/out/ass-pennies-*-win-unsigned.tar.gz inputs/ass-pennies-win-unsigned.tar.gz
-    mv build/out/ass-pennies-*.zip build/out/ass-pennies-*.exe ../
+    ./bin/gbuild --num-make $GITIAN_THREADS --memory $GITIAN_MEMORY --commit asspennies=v${VERSION} ../asspennies/contrib/gitian-descriptors/gitian-win.yml
+    ./bin/gsign --signer "$SIGNER" --release ${VERSION}-win-unsigned --destination ../gitian.sigs.ltc/ ../asspennies/contrib/gitian-descriptors/gitian-win.yml
+    mv build/out/asspennies-*-win-unsigned.tar.gz inputs/asspennies-win-unsigned.tar.gz
+    mv build/out/asspennies-*.zip build/out/asspennies-*.exe ../
 
-    ./bin/gbuild --num-make $GITIAN_THREADS --memory $GITIAN_MEMORY --commit ass-pennies=v${VERSION} ../ass-pennies/contrib/gitian-descriptors/gitian-osx.yml
-    ./bin/gsign --signer "$SIGNER" --release ${VERSION}-osx-unsigned --destination ../gitian.sigs.ltc/ ../ass-pennies/contrib/gitian-descriptors/gitian-osx.yml
-    mv build/out/ass-pennies-*-osx-unsigned.tar.gz inputs/ass-pennies-osx-unsigned.tar.gz
-    mv build/out/ass-pennies-*.tar.gz build/out/ass-pennies-*.dmg ../
+    ./bin/gbuild --num-make $GITIAN_THREADS --memory $GITIAN_MEMORY --commit asspennies=v${VERSION} ../asspennies/contrib/gitian-descriptors/gitian-osx.yml
+    ./bin/gsign --signer "$SIGNER" --release ${VERSION}-osx-unsigned --destination ../gitian.sigs.ltc/ ../asspennies/contrib/gitian-descriptors/gitian-osx.yml
+    mv build/out/asspennies-*-osx-unsigned.tar.gz inputs/asspennies-osx-unsigned.tar.gz
+    mv build/out/asspennies-*.tar.gz build/out/asspennies-*.dmg ../
     popd
 
 Build output expected:
 
-  1. source tarball (`ass-pennies-${VERSION}.tar.gz`)
-  2. linux 32-bit and 64-bit dist tarballs (`ass-pennies-${VERSION}-linux[32|64].tar.gz`)
-  3. windows 32-bit and 64-bit unsigned installers and dist zips (`ass-pennies-${VERSION}-win[32|64]-setup-unsigned.exe`, `ass-pennies-${VERSION}-win[32|64].zip`)
-  4. macOS unsigned installer and dist tarball (`ass-pennies-${VERSION}-osx-unsigned.dmg`, `ass-pennies-${VERSION}-osx64.tar.gz`)
+  1. source tarball (`asspennies-${VERSION}.tar.gz`)
+  2. linux 32-bit and 64-bit dist tarballs (`asspennies-${VERSION}-linux[32|64].tar.gz`)
+  3. windows 32-bit and 64-bit unsigned installers and dist zips (`asspennies-${VERSION}-win[32|64]-setup-unsigned.exe`, `asspennies-${VERSION}-win[32|64].zip`)
+  4. macOS unsigned installer and dist tarball (`asspennies-${VERSION}-osx-unsigned.dmg`, `asspennies-${VERSION}-osx64.tar.gz`)
   5. Gitian signatures (in `gitian.sigs.ltc/${VERSION}-<linux|{win,osx}-unsigned>/(your Gitian key)/`)
 
 ### Verify other gitian builders signatures to your own. (Optional)
 
-Add other gitian builders keys to your gpg keyring, and/or refresh keys: See `../ass-pennies/contrib/gitian-keys/README.md`.
+Add other gitian builders keys to your gpg keyring, and/or refresh keys: See `../asspennies/contrib/gitian-keys/README.md`.
 
 Verify the signatures
 
     pushd ./gitian-builder
-    ./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-linux ../ass-pennies/contrib/gitian-descriptors/gitian-linux.yml
-    ./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-win-unsigned ../ass-pennies/contrib/gitian-descriptors/gitian-win.yml
-    ./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-osx-unsigned ../ass-pennies/contrib/gitian-descriptors/gitian-osx.yml
+    ./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-linux ../asspennies/contrib/gitian-descriptors/gitian-linux.yml
+    ./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-win-unsigned ../asspennies/contrib/gitian-descriptors/gitian-win.yml
+    ./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-osx-unsigned ../asspennies/contrib/gitian-descriptors/gitian-osx.yml
     popd
 
 ### Next steps:
@@ -173,22 +173,22 @@ Codesigner only: Create Windows/macOS detached signatures:
 
 Codesigner only: Sign the macOS binary:
 
-    transfer ass-pennies-osx-unsigned.tar.gz to macOS for signing
-    tar xf ass-pennies-osx-unsigned.tar.gz
+    transfer asspennies-osx-unsigned.tar.gz to macOS for signing
+    tar xf asspennies-osx-unsigned.tar.gz
     ./detached-sig-create.sh -s "Key ID"
     Enter the keychain password and authorize the signature
     Move signature-osx.tar.gz back to the gitian host
 
 Codesigner only: Sign the windows binaries:
 
-    tar xf ass-pennies-win-unsigned.tar.gz
+    tar xf asspennies-win-unsigned.tar.gz
     ./detached-sig-create.sh -key /path/to/codesign.key
     Enter the passphrase for the key when prompted
     signature-win.tar.gz will be created
 
 Codesigner only: Commit the detached codesign payloads:
 
-    cd ~/ass-pennies-detached-sigs
+    cd ~/asspennies-detached-sigs
     checkout the appropriate branch for this release series
     rm -rf *
     tar xf signature-osx.tar.gz
@@ -201,25 +201,25 @@ Codesigner only: Commit the detached codesign payloads:
 Non-codesigners: wait for Windows/macOS detached signatures:
 
 - Once the Windows/macOS builds each have 3 matching signatures, they will be signed with their respective release keys.
-- Detached signatures will then be committed to the [ass-pennies-detached-sigs](https://github.com/ass-pennies-project/ass-pennies-detached-sigs) repository, which can be combined with the unsigned apps to create signed binaries.
+- Detached signatures will then be committed to the [asspennies-detached-sigs](https://github.com/asspennies-project/asspennies-detached-sigs) repository, which can be combined with the unsigned apps to create signed binaries.
 
 Create (and optionally verify) the signed macOS binary:
 
     pushd ./gitian-builder
-    ./bin/gbuild -i --commit signature=v${VERSION} ../ass-pennies/contrib/gitian-descriptors/gitian-osx-signer.yml
-    ./bin/gsign --signer "$SIGNER" --release ${VERSION}-osx-signed --destination ../gitian.sigs.ltc/ ../ass-pennies/contrib/gitian-descriptors/gitian-osx-signer.yml
-    ./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-osx-signed ../ass-pennies/contrib/gitian-descriptors/gitian-osx-signer.yml
-    mv build/out/ass-pennies-osx-signed.dmg ../ass-pennies-${VERSION}-osx.dmg
+    ./bin/gbuild -i --commit signature=v${VERSION} ../asspennies/contrib/gitian-descriptors/gitian-osx-signer.yml
+    ./bin/gsign --signer "$SIGNER" --release ${VERSION}-osx-signed --destination ../gitian.sigs.ltc/ ../asspennies/contrib/gitian-descriptors/gitian-osx-signer.yml
+    ./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-osx-signed ../asspennies/contrib/gitian-descriptors/gitian-osx-signer.yml
+    mv build/out/asspennies-osx-signed.dmg ../asspennies-${VERSION}-osx.dmg
     popd
 
 Create (and optionally verify) the signed Windows binaries:
 
     pushd ./gitian-builder
-    ./bin/gbuild -i --commit signature=v${VERSION} ../ass-pennies/contrib/gitian-descriptors/gitian-win-signer.yml
-    ./bin/gsign --signer "$SIGNER" --release ${VERSION}-win-signed --destination ../gitian.sigs.ltc/ ../ass-pennies/contrib/gitian-descriptors/gitian-win-signer.yml
-    ./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-win-signed ../ass-pennies/contrib/gitian-descriptors/gitian-win-signer.yml
-    mv build/out/ass-pennies-*win64-setup.exe ../ass-pennies-${VERSION}-win64-setup.exe
-    mv build/out/ass-pennies-*win32-setup.exe ../ass-pennies-${VERSION}-win32-setup.exe
+    ./bin/gbuild -i --commit signature=v${VERSION} ../asspennies/contrib/gitian-descriptors/gitian-win-signer.yml
+    ./bin/gsign --signer "$SIGNER" --release ${VERSION}-win-signed --destination ../gitian.sigs.ltc/ ../asspennies/contrib/gitian-descriptors/gitian-win-signer.yml
+    ./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-win-signed ../asspennies/contrib/gitian-descriptors/gitian-win-signer.yml
+    mv build/out/asspennies-*win64-setup.exe ../asspennies-${VERSION}-win64-setup.exe
+    mv build/out/asspennies-*win32-setup.exe ../asspennies-${VERSION}-win32-setup.exe
     popd
 
 Commit your signature for the signed macOS/Windows binaries:
@@ -241,23 +241,23 @@ sha256sum * > SHA256SUMS
 
 The list of files should be:
 ```
-ass-pennies-${VERSION}-aarch64-linux-gnu.tar.gz
-ass-pennies-${VERSION}-arm-linux-gnueabihf.tar.gz
-ass-pennies-${VERSION}-i686-pc-linux-gnu.tar.gz
-ass-pennies-${VERSION}-x86_64-linux-gnu.tar.gz
-ass-pennies-${VERSION}-osx64.tar.gz
-ass-pennies-${VERSION}-osx.dmg
-ass-pennies-${VERSION}.tar.gz
-ass-pennies-${VERSION}-win32-setup.exe
-ass-pennies-${VERSION}-win32.zip
-ass-pennies-${VERSION}-win64-setup.exe
-ass-pennies-${VERSION}-win64.zip
+asspennies-${VERSION}-aarch64-linux-gnu.tar.gz
+asspennies-${VERSION}-arm-linux-gnueabihf.tar.gz
+asspennies-${VERSION}-i686-pc-linux-gnu.tar.gz
+asspennies-${VERSION}-x86_64-linux-gnu.tar.gz
+asspennies-${VERSION}-osx64.tar.gz
+asspennies-${VERSION}-osx.dmg
+asspennies-${VERSION}.tar.gz
+asspennies-${VERSION}-win32-setup.exe
+asspennies-${VERSION}-win32.zip
+asspennies-${VERSION}-win64-setup.exe
+asspennies-${VERSION}-win64.zip
 ```
 The `*-debug*` files generated by the gitian build contain debug symbols
 for troubleshooting by developers. It is assumed that anyone that is interested
 in debugging can run gitian to generate the files for themselves. To avoid
 end-user confusion about which file to pick, as well as save storage
-space *do not upload these to the ass-pennies.org server, nor put them in the torrent*.
+space *do not upload these to the asspennies.org server, nor put them in the torrent*.
 
 - GPG-sign it, delete the unsigned file:
 ```
@@ -267,25 +267,25 @@ rm SHA256SUMS
 (the digest algorithm is forced to sha256 to avoid confusion of the `Hash:` header that GPG adds with the SHA256 used for the files)
 Note: check that SHA256SUMS itself doesn't end up in SHA256SUMS, which is a spurious/nonsensical entry.
 
-- Upload zips and installers, as well as `SHA256SUMS.asc` from last step, to the ass-pennies.org server.
+- Upload zips and installers, as well as `SHA256SUMS.asc` from last step, to the asspennies.org server.
 
 ```
-- Update ass-pennies.org version
+- Update asspennies.org version
 
 - Update other repositories and websites for new version
 
 - Announce the release:
 
-  - ass-pennies-dev mailing list
+  - asspennies-dev mailing list
 
-  - blog.ass-pennies.org blog post
+  - blog.asspennies.org blog post
 
-  - Update title of #ass-pennies and #ass-pennies-dev on Freenode IRC
+  - Update title of #asspennies and #asspennies-dev on Freenode IRC
 
-  - Optionally twitter, reddit /r/Ass-Pennies, ... but this will usually sort out itself
+  - Optionally twitter, reddit /r/AssPennies, ... but this will usually sort out itself
 
   - Archive release notes for the new version to `doc/release-notes/` (branch `master` and branch of the release)
 
-  - Create a [new GitHub release](https://github.com/ass-pennies-project/ass-pennies/releases/new) with a link to the archived release notes.
+  - Create a [new GitHub release](https://github.com/asspennies-project/asspennies/releases/new) with a link to the archived release notes.
 
   - Celebrate

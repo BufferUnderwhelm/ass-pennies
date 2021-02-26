@@ -1,43 +1,43 @@
-Ass-Pennies Core integration/staging tree
+AssPennies Core integration/staging tree
 =====================================
 
-[![Build Status](https://travis-ci.org/ass-pennies-project/ass-pennies.svg?branch=master)](https://travis-ci.org/ass-pennies-project/ass-pennies)
+[![Build Status](https://travis-ci.org/asspennies-project/asspennies.svg?branch=master)](https://travis-ci.org/asspennies-project/asspennies)
 
-https://ass-pennies.org
+https://asspennies.org
 
-What is Ass-Pennies?
+What is AssPennies?
 ----------------
 
-Ass-Pennies is an experimental digital currency that enables instant payments to
-anyone, anywhere in the world. Ass-Pennies uses peer-to-peer technology to operate
+AssPennies is an experimental digital currency that enables instant payments to
+anyone, anywhere in the world. AssPennies uses peer-to-peer technology to operate
 with no central authority: managing transactions and issuing money are carried
-out collectively by the network. Ass-Pennies Core is the name of open source
+out collectively by the network. AssPennies Core is the name of open source
 software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Ass-Pennies Core software, see [https://ass-pennies.org](https://ass-pennies.org).
+the AssPennies Core software, see [https://asspennies.org](https://asspennies.org).
 
 License
 -------
 
-Ass-Pennies Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
+AssPennies Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
 information or see https://opensource.org/licenses/MIT.
 
 Development Process
 -------------------
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/ass-pennies-project/ass-pennies/tags) are created
-regularly to indicate new official, stable release versions of Ass-Pennies Core.
+completely stable. [Tags](https://github.com/asspennies-project/asspennies/tags) are created
+regularly to indicate new official, stable release versions of AssPennies Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md)
 and useful hints for developers can be found in [doc/developer-notes.md](doc/developer-notes.md).
 
-The developer [mailing list](https://groups.google.com/forum/#!forum/ass-pennies-dev)
+The developer [mailing list](https://groups.google.com/forum/#!forum/asspennies-dev)
 should be used to discuss complicated or controversial changes before working
 on a patch set.
 
-Developer IRC can be found on Freenode at #ass-pennies-dev.
+Developer IRC can be found on Freenode at #asspennies-dev.
 
 Testing
 -------
@@ -71,7 +71,7 @@ Translations
 ------------
 
 We only accept translation fixes that are submitted through [Bitcoin Core's Transifex page](https://www.transifex.com/projects/p/bitcoin/).
-Translations are converted to Ass-Pennies periodically.
+Translations are converted to AssPennies periodically.
 
 Translations are periodically pulled from Transifex and merged into the git repository. See the
 [translation process](doc/translation_process.md) for details on how this works.

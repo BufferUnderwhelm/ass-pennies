@@ -66,12 +66,12 @@
         <translation>Vastaanotto-osoitteet</translation>
     </message>
     <message>
-        <source>These are your Ass-Pennies addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Nämä ovat Ass-Pennies-osoitteesi maksujen lähettämistä varten. Tarkista aina määrä ja vastaanotto-osoite ennen kolikoiden lähettämistä.</translation>
+        <source>These are your AssPennies addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Nämä ovat AssPennies-osoitteesi maksujen lähettämistä varten. Tarkista aina määrä ja vastaanotto-osoite ennen kolikoiden lähettämistä.</translation>
     </message>
     <message>
-        <source>These are your Ass-Pennies addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Tässä ovat Ass-Pennies vastaanotto-osoitteesi. On suositeltavaa käyttää uutta vastaanotto-osoitetta jokaista lähetystä varten.</translation>
+        <source>These are your AssPennies addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Tässä ovat AssPennies vastaanotto-osoitteesi. On suositeltavaa käyttää uutta vastaanotto-osoitetta jokaista lähetystä varten.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -188,8 +188,8 @@
         <translation>Lompakko salattiin</translation>
     </message>
     <message>
-        <source>Your wallet is now encrypted. Remember that encrypting your wallet cannot fully protect your ass-penniess from being stolen by malware infecting your computer.</source>
-        <translation>Lompakkosi on nyt salattu. Muistathan, että lompakon salaus ei riitä suojaamaan ass-penniesejasi viruksen tai muun haittaohjelman tekemältä varkaudelta.</translation>
+        <source>Your wallet is now encrypted. Remember that encrypting your wallet cannot fully protect your asspenniess from being stolen by malware infecting your computer.</source>
+        <translation>Lompakkosi on nyt salattu. Muistathan, että lompakon salaus ei riitä suojaamaan asspenniesejasi viruksen tai muun haittaohjelman tekemältä varkaudelta.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -342,8 +342,8 @@
         <translation>Välipalvelin on &lt;b&gt;käytössä&lt;/b&gt;: %1</translation>
     </message>
     <message>
-        <source>Send coins to a Ass-Pennies address</source>
-        <translation>Lähetä kolikoita Ass-Pennies-osoitteeseen</translation>
+        <source>Send coins to a AssPennies address</source>
+        <translation>Lähetä kolikoita AssPennies-osoitteeseen</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -366,8 +366,8 @@
         <translation>Varmista &amp;viesti...</translation>
     </message>
     <message>
-        <source>Ass-Pennies</source>
-        <translation>Ass-Pennies</translation>
+        <source>AssPennies</source>
+        <translation>AssPennies</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -383,19 +383,19 @@
     </message>
     <message>
         <source>Show or hide the main Window</source>
-        <translation>Näytä tai piilota Ass-Pennies-ikkuna</translation>
+        <translation>Näytä tai piilota AssPennies-ikkuna</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
         <translation>Suojaa yksityiset avaimet, jotka kuuluvat lompakkoosi</translation>
     </message>
     <message>
-        <source>Sign messages with your Ass-Pennies addresses to prove you own them</source>
-        <translation>Allekirjoita viestisi omalla Ass-Pennies -osoitteellasi todistaaksesi, että omistat ne</translation>
+        <source>Sign messages with your AssPennies addresses to prove you own them</source>
+        <translation>Allekirjoita viestisi omalla AssPennies -osoitteellasi todistaaksesi, että omistat ne</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Ass-Pennies addresses</source>
-        <translation>Varmista, että viestisi on allekirjoitettu määritetyllä Ass-Pennies -osoitteella</translation>
+        <source>Verify messages to ensure they were signed with specified AssPennies addresses</source>
+        <translation>Varmista, että viestisi on allekirjoitettu määritetyllä AssPennies -osoitteella</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -414,8 +414,8 @@
         <translation>Välilehtipalkki</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and ass-pennies: URIs)</source>
-        <translation>Pyydä maksuja (Luo QR koodit ja ass-pennies: URIt)</translation>
+        <source>Request payments (generates QR codes and asspennies: URIs)</source>
+        <translation>Pyydä maksuja (Luo QR koodit ja asspennies: URIt)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -426,16 +426,16 @@
         <translation>Näytä vastaanottamiseen käytettyjen osoitteiden ja nimien lista</translation>
     </message>
     <message>
-        <source>Open a ass-pennies: URI or payment request</source>
-        <translation>Avaa ass-pennies: URI tai maksupyyntö</translation>
+        <source>Open a asspennies: URI or payment request</source>
+        <translation>Avaa asspennies: URI tai maksupyyntö</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Komentorivin valinnat</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Ass-Pennies network</source>
-        <translation><numerusform>%n aktiivinen yhteys Ass-Pennies-verkkoon</numerusform><numerusform>%n aktiivista yhteyttä Ass-Pennies-verkkoon</numerusform></translation>
+        <source>%n active connection(s) to AssPennies network</source>
+        <translation><numerusform>%n aktiivinen yhteys AssPennies-verkkoon</numerusform><numerusform>%n aktiivista yhteyttä AssPennies-verkkoon</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -478,8 +478,8 @@
         <translation>Rahansiirtohistoria on ajan tasalla</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Ass-Pennies command-line options</source>
-        <translation>Näytä %1 ohjeet saadaksesi listan mahdollisista Ass-Penniesin komentorivivalinnoista</translation>
+        <source>Show the %1 help message to get a list with possible AssPennies command-line options</source>
+        <translation>Näytä %1 ohjeet saadaksesi listan mahdollisista AssPenniesin komentorivivalinnoista</translation>
     </message>
     <message>
         <source>default wallet</source>
@@ -578,8 +578,8 @@
         <translation>Lompakko on &lt;b&gt;salattu&lt;/b&gt; ja tällä hetkellä &lt;b&gt;lukittuna&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Ass-Pennies can no longer continue safely and will quit.</source>
-        <translation>Peruuttamaton virhe on tapahtunut. Ass-Pennies ei voi enää jatkaa turvallisesti ja sammutetaan.</translation>
+        <source>A fatal error occurred. AssPennies can no longer continue safely and will quit.</source>
+        <translation>Peruuttamaton virhe on tapahtunut. AssPennies ei voi enää jatkaa turvallisesti ja sammutetaan.</translation>
     </message>
 </context>
 <context>
@@ -768,8 +768,8 @@
         <translation>Muokkaa lähettävää osoitetta</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Ass-Pennies address.</source>
-        <translation>Antamasi osoite "%1" ei ole kelvollinen Ass-Pennies-osoite.</translation>
+        <source>The entered address "%1" is not a valid AssPennies address.</source>
+        <translation>Antamasi osoite "%1" ei ole kelvollinen AssPennies-osoite.</translation>
     </message>
     <message>
         <source>Address "%1" already exists as a receiving address with label "%2" and so cannot be added as a sending address.</source>
@@ -865,8 +865,8 @@
         <translation>Määritä oma kansio:</translation>
     </message>
     <message>
-        <source>Ass-Pennies</source>
-        <translation>Ass-Pennies</translation>
+        <source>AssPennies</source>
+        <translation>AssPennies</translation>
     </message>
     <message>
         <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
@@ -877,8 +877,8 @@
         <translation>Noin %1 GB tietoa varastoidaan tähän hakemistoon.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Ass-Pennies block chain.</source>
-        <translation>%1 lataa ja tallentaa kopion Ass-Penniesin lohkoketjusta.</translation>
+        <source>%1 will download and store a copy of the AssPennies block chain.</source>
+        <translation>%1 lataa ja tallentaa kopion AssPenniesin lohkoketjusta.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -908,12 +908,12 @@
         <translation>Lomake</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the ass-pennies network, as detailed below.</source>
-        <translation>Viimeiset tapahtumat eivät välttämättä vielä näy, joten lompakkosi saldo voi olla virheellinen. Tieto korjautuu, kunhan lompakkosi synkronointi ass-pennies-verkon kanssa on päättynyt. Tiedot näkyvät alla.</translation>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the asspennies network, as detailed below.</source>
+        <translation>Viimeiset tapahtumat eivät välttämättä vielä näy, joten lompakkosi saldo voi olla virheellinen. Tieto korjautuu, kunhan lompakkosi synkronointi asspennies-verkon kanssa on päättynyt. Tiedot näkyvät alla.</translation>
     </message>
     <message>
-        <source>Attempting to spend ass-penniess that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>Verkko ei tule hyväksymään sellaisten ass-penniesien käyttämistä, jotka liittyvät vielä näkymättömissä oleviin siirtoihin.</translation>
+        <source>Attempting to spend asspenniess that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <translation>Verkko ei tule hyväksymään sellaisten asspenniesien käyttämistä, jotka liittyvät vielä näkymättömissä oleviin siirtoihin.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1086,8 +1086,8 @@
         <translation>&amp;Käytä varmistamattomia vaihtorahoja</translation>
     </message>
     <message>
-        <source>Automatically open the Ass-Pennies client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Avaa Ass-Pennies-asiakasohjelman portti reitittimellä automaattisesti. Tämä toimii vain, jos reitittimesi tukee UPnP:tä ja se on käytössä.</translation>
+        <source>Automatically open the AssPennies client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Avaa AssPennies-asiakasohjelman portti reitittimellä automaattisesti. Tämä toimii vain, jos reitittimesi tukee UPnP:tä ja se on käytössä.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1102,8 +1102,8 @@
         <translation>Hyväksy sisääntulevia yhteyksiä</translation>
     </message>
     <message>
-        <source>Connect to the Ass-Pennies network through a SOCKS5 proxy.</source>
-        <translation>Yhdistä Ass-Pennies-verkkoon SOCKS5-välityspalvelimen kautta.</translation>
+        <source>Connect to the AssPennies network through a SOCKS5 proxy.</source>
+        <translation>Yhdistä AssPennies-verkkoon SOCKS5-välityspalvelimen kautta.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1138,8 +1138,8 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Ass-Pennies network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Yhdistä Ass-Pennies-verkkoon erillisen SOCKS5-välityspalvelimen kautta piilotettuja Tor-palveluja varten.</translation>
+        <source>Connect to the AssPennies network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Yhdistä AssPennies-verkkoon erillisen SOCKS5-välityspalvelimen kautta piilotettuja Tor-palveluja varten.</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1171,11 +1171,11 @@
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>Yksikkö jona ass-pennies-määrät näytetään</translation>
+        <translation>Yksikkö jona asspennies-määrät näytetään</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Valitse mitä yksikköä käytetään ensisijaisesti ass-pennies-määrien näyttämiseen.</translation>
+        <translation>Valitse mitä yksikköä käytetään ensisijaisesti asspennies-määrien näyttämiseen.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1245,8 +1245,8 @@
         <translation>Lomake</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Ass-Pennies network after a connection is established, but this process has not completed yet.</source>
-        <translation>Näytetyt tiedot eivät välttämättä ole ajantasalla. Lompakkosi synkronoituu Ass-Pennies-verkon kanssa automaattisesti yhteyden muodostamisen jälkeen, mutta synkronointi on vielä meneillään.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the AssPennies network after a connection is established, but this process has not completed yet.</source>
+        <translation>Näytetyt tiedot eivät välttämättä ole ajantasalla. Lompakkosi synkronoituu AssPennies-verkon kanssa automaattisesti yhteyden muodostamisen jälkeen, mutta synkronointi on vielä meneillään.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1286,7 +1286,7 @@
     </message>
     <message>
         <source>Your current total balance</source>
-        <translation>Tililläsi tällä hetkellä olevien Ass-Penniesien määrä</translation>
+        <translation>Tililläsi tällä hetkellä olevien AssPenniesien määrä</translation>
     </message>
     <message>
         <source>Your current balance in watch-only addresses</source>
@@ -1320,16 +1320,16 @@
         <translation>Maksupyyntövirhe</translation>
     </message>
     <message>
-        <source>Cannot start ass-pennies: click-to-pay handler</source>
-        <translation>Ass-Penniesia ei voi käynnistää: klikkaa-maksaaksesi -käsittelijän virhe</translation>
+        <source>Cannot start asspennies: click-to-pay handler</source>
+        <translation>AssPenniesia ei voi käynnistää: klikkaa-maksaaksesi -käsittelijän virhe</translation>
     </message>
     <message>
         <source>URI handling</source>
         <translation>URI käsittely</translation>
     </message>
     <message>
-        <source>'ass-pennies://' is not a valid URI. Use 'ass-pennies:' instead.</source>
-        <translation>'ass-pennies://' ei ole kelvollinen URI. Käytä 'ass-pennies:' sen sijaan.</translation>
+        <source>'asspennies://' is not a valid URI. Use 'asspennies:' instead.</source>
+        <translation>'asspennies://' ei ole kelvollinen URI. Käytä 'asspennies:' sen sijaan.</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
@@ -1340,8 +1340,8 @@
         <translation>Virheellinen maksuosoite %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Ass-Pennies address or malformed URI parameters.</source>
-        <translation>URIa ei voitu jäsentää! Tämä voi johtua virheellisestä Ass-Pennies-osoitteesta tai väärin muotoilluista URI parametreista.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid AssPennies address or malformed URI parameters.</source>
+        <translation>URIa ei voitu jäsentää! Tämä voi johtua virheellisestä AssPennies-osoitteesta tai väärin muotoilluista URI parametreista.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1442,8 +1442,8 @@
         <translation>Määrä</translation>
     </message>
     <message>
-        <source>Enter a Ass-Pennies address (e.g. %1)</source>
-        <translation>Syötä Ass-Pennies-osoite (esim. %1)</translation>
+        <source>Enter a AssPennies address (e.g. %1)</source>
+        <translation>Syötä AssPennies-osoite (esim. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1878,8 +1878,8 @@
         <translation>&amp;Viesti:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Ass-Pennies network.</source>
-        <translation>Valinnainen viesti liitetään maksupyyntöön ja näytetään avattaessa. Viestiä ei lähetetä Ass-Pennies-verkkoon.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the AssPennies network.</source>
+        <translation>Valinnainen viesti liitetään maksupyyntöön ja näytetään avattaessa. Viestiä ei lähetetä AssPennies-verkkoon.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2287,8 +2287,8 @@
         <translation><numerusform>Vahvistuminen alkaa arviolta %n lohkon sisällä.</numerusform><numerusform>Vahvistuminen alkaa arviolta %n lohkon sisällä.</numerusform></translation>
     </message>
     <message>
-        <source>Warning: Invalid Ass-Pennies address</source>
-        <translation>Varoitus: Virheellinen Ass-Pennies-osoite </translation>
+        <source>Warning: Invalid AssPennies address</source>
+        <translation>Varoitus: Virheellinen AssPennies-osoite </translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2330,8 +2330,8 @@
         <translation>Tämä on normaali maksu.</translation>
     </message>
     <message>
-        <source>The Ass-Pennies address to send the payment to</source>
-        <translation>Ass-Pennies-osoite johon maksu lähetetään</translation>
+        <source>The AssPennies address to send the payment to</source>
+        <translation>AssPennies-osoite johon maksu lähetetään</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2350,8 +2350,8 @@
         <translation>Poista tämä alkio</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less ass-penniess than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>Kulu vähennetään lähetettävästä määrästä. Saaja vastaanottaa vähemmän ass-pennieseja kuin merkitset Määrä-kenttään. Jos saajia on monia, kulu jaetaan tasan.</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less asspenniess than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>Kulu vähennetään lähetettävästä määrästä. Saaja vastaanottaa vähemmän asspennieseja kuin merkitset Määrä-kenttään. Jos saajia on monia, kulu jaetaan tasan.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2378,8 +2378,8 @@
         <translation>Aseta nimi tälle osoitteelle lisätäksesi sen käytettyjen osoitteiden listalle.</translation>
     </message>
     <message>
-        <source>A message that was attached to the ass-pennies: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Ass-Pennies network.</source>
-        <translation>Viesti joka liitettiin ass-pennies: URI:iin tallennetaan rahansiirtoon viitteeksi. Tätä viestiä ei lähetetä Ass-Pennies-verkkoon.</translation>
+        <source>A message that was attached to the asspennies: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the AssPennies network.</source>
+        <translation>Viesti joka liitettiin asspennies: URI:iin tallennetaan rahansiirtoon viitteeksi. Tätä viestiä ei lähetetä AssPennies-verkkoon.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2423,12 +2423,12 @@
         <translation>&amp;Allekirjoita viesti</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive ass-penniess sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Voit allekirjoittaa viestit / sopimukset omalla osoitteellasi todistaaksesi että voit vastaanottaa siihen lähetetyt ass-penniesit. Varo allekirjoittamasta mitään epämääräistä, sillä phishing-hyökkääjät voivat huijata sinua luovuttamaan henkilöllisyytesi allekirjoituksella. Allekirjoita ainoastaan täysin yksityiskohtainen selvitys siitä, mihin olet sitoutumassa.</translation>
+        <source>You can sign messages/agreements with your addresses to prove you can receive asspenniess sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>Voit allekirjoittaa viestit / sopimukset omalla osoitteellasi todistaaksesi että voit vastaanottaa siihen lähetetyt asspenniesit. Varo allekirjoittamasta mitään epämääräistä, sillä phishing-hyökkääjät voivat huijata sinua luovuttamaan henkilöllisyytesi allekirjoituksella. Allekirjoita ainoastaan täysin yksityiskohtainen selvitys siitä, mihin olet sitoutumassa.</translation>
     </message>
     <message>
-        <source>The Ass-Pennies address to sign the message with</source>
-        <translation>Ass-Pennies-osoite jolla viesti allekirjoitetaan</translation>
+        <source>The AssPennies address to sign the message with</source>
+        <translation>AssPennies-osoite jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2459,8 +2459,8 @@
         <translation>Kopioi tämänhetkinen allekirjoitus leikepöydälle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Ass-Pennies address</source>
-        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän Ass-Pennies-osoitteen</translation>
+        <source>Sign the message to prove you own this AssPennies address</source>
+        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän AssPennies-osoitteen</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2483,12 +2483,12 @@
         <translation>Syötä vastaanottajan osoite, viesti ja allekirjoitus (varmista että kopioit rivinvaihdot, välilyönnit, sarkaimet yms. täsmälleen) alle vahvistaaksesi viestin. Varo lukemasta allekirjoitukseen enempää kuin mitä viestissä itsessään on välttääksesi man-in-the-middle -hyökkäyksiltä. Huomaa, että tämä todentaa ainoastaan allekirjoittavan vastaanottajan osoitteen, tämä ei voi todentaa minkään tapahtuman lähettäjää!</translation>
     </message>
     <message>
-        <source>The Ass-Pennies address the message was signed with</source>
-        <translation>Ass-Pennies-osoite jolla viesti on allekirjoitettu</translation>
+        <source>The AssPennies address the message was signed with</source>
+        <translation>AssPennies-osoite jolla viesti on allekirjoitettu</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Ass-Pennies address</source>
-        <translation>Tarkista viestin allekirjoitus varmistaaksesi, että se allekirjoitettiin tietyllä Ass-Pennies-osoitteella</translation>
+        <source>Verify the message to ensure it was signed with the specified AssPennies address</source>
+        <translation>Tarkista viestin allekirjoitus varmistaaksesi, että se allekirjoitettiin tietyllä AssPennies-osoitteella</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -3135,8 +3135,8 @@
         <translation>HTTP-palvelinta ei voitu käynnistää. Katso debug-lokista lisätietoja.</translation>
     </message>
     <message>
-        <source>Ass-Pennies Core</source>
-        <translation>Ass-Pennies-ydin</translation>
+        <source>AssPennies Core</source>
+        <translation>AssPennies-ydin</translation>
     </message>
     <message>
         <source>The %s developers</source>

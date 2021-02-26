@@ -54,12 +54,12 @@
         <translation>Duke marr adresen</translation>
     </message>
     <message>
-        <source>These are your Ass-Pennies addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Këto janë Ass-Pennies adresat e juaja për të dërguar pagesa. Gjithmon kontrolloni shumën dhe adresën pranuese para se të dërgoni monedha.</translation>
+        <source>These are your AssPennies addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Këto janë AssPennies adresat e juaja për të dërguar pagesa. Gjithmon kontrolloni shumën dhe adresën pranuese para se të dërgoni monedha.</translation>
     </message>
     <message>
-        <source>These are your Ass-Pennies addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Këto janë Ass-Pennies adresat e juaja për të pranuar pagesa. Rekomandohet që gjithmon të përdorni një adresë të re për çdo transaksion.</translation>
+        <source>These are your AssPennies addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Këto janë AssPennies adresat e juaja për të pranuar pagesa. Rekomandohet që gjithmon të përdorni një adresë të re për çdo transaksion.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -226,8 +226,8 @@
         <translation>Ndrysho frazkalimin e përdorur per enkriptimin e portofolit</translation>
     </message>
     <message>
-        <source>Ass-Pennies</source>
-        <translation>Ass-Pennies</translation>
+        <source>AssPennies</source>
+        <translation>AssPennies</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -385,8 +385,8 @@
         <translation>Miresevini</translation>
     </message>
     <message>
-        <source>Ass-Pennies</source>
-        <translation>Ass-Pennies</translation>
+        <source>AssPennies</source>
+        <translation>AssPennies</translation>
     </message>
     <message>
         <source>Error</source>
@@ -787,8 +787,8 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Ass-Pennies Core</source>
-        <translation>Berthama Ass-Pennies</translation>
+        <source>AssPennies Core</source>
+        <translation>Berthama AssPennies</translation>
     </message>
     <message>
         <source>Information</source>

@@ -46,11 +46,11 @@ static const int MAX_URI_LENGTH = 255;
 /* Number of frames in spinner animation */
 #define SPINNER_FRAMES 36
 
-#define QAPP_ORG_NAME "Ass-Pennies"
-#define QAPP_ORG_DOMAIN "ass-pennies.org"
-#define QAPP_APP_NAME_DEFAULT "Ass-Pennies-Qt"
-#define QAPP_APP_NAME_TESTNET "Ass-Pennies-Qt-testnet"
-#define QAPP_APP_NAME_REGTEST "Ass-Pennies-Qt-regtest"
+#define QAPP_ORG_NAME "AssPennies"
+#define QAPP_ORG_DOMAIN "asspennies.org"
+#define QAPP_APP_NAME_DEFAULT "AssPennies-Qt"
+#define QAPP_APP_NAME_TESTNET "AssPennies-Qt-testnet"
+#define QAPP_APP_NAME_REGTEST "AssPennies-Qt-regtest"
 
 /* One gigabyte (GB) in bytes */
 static constexpr uint64_t GB_BYTES{1000000000};

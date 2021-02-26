@@ -1,5 +1,5 @@
-Building Ass-Pennies
+Building AssPennies
 ================
 
 See doc/build-*.md for instructions on building the various
-elements of the Ass-Pennies Core reference implementation of Ass-Pennies.
+elements of the AssPennies Core reference implementation of AssPennies.

@@ -1,6 +1,6 @@
 ### TestGen ###
 
-Utilities to generate test vectors for the data-driven Ass-Pennies tests.
+Utilities to generate test vectors for the data-driven AssPennies tests.
 
 Usage: 
 

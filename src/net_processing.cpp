@@ -33,7 +33,7 @@
 #include <memory>
 
 #if defined(NDEBUG)
-# error "Ass-Pennies cannot be compiled without assertions."
+# error "AssPennies cannot be compiled without assertions."
 #endif
 
 /** Expiration time for orphan transactions in seconds */

@@ -47,11 +47,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Vælg adresse at sende ass-penniess til</translation>
+        <translation>Vælg adresse at sende asspenniess til</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Vælg adresse at modtage ass-penniess med</translation>
+        <translation>Vælg adresse at modtage asspenniess med</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -66,12 +66,12 @@
         <translation>Modtagelsesadresser</translation>
     </message>
     <message>
-        <source>These are your Ass-Pennies addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Disse er dine Ass-Pennies-adresser til afsendelse af betalinger. Tjek altid beløb og modtagelsesadresse, inden du sender ass-penniess.</translation>
+        <source>These are your AssPennies addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Disse er dine AssPennies-adresser til afsendelse af betalinger. Tjek altid beløb og modtagelsesadresse, inden du sender asspenniess.</translation>
     </message>
     <message>
-        <source>These are your Ass-Pennies addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dette er dine Ass-Pennies-adresser til modtagelse af betalinger. Det anbefales at bruge en ny modtagelsesadresse for hver transaktion.</translation>
+        <source>These are your AssPennies addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Dette er dine AssPennies-adresser til modtagelse af betalinger. Det anbefales at bruge en ny modtagelsesadresse for hver transaktion.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -188,8 +188,8 @@
         <translation>Tegnebog krypteret</translation>
     </message>
     <message>
-        <source>Your wallet is now encrypted. Remember that encrypting your wallet cannot fully protect your ass-penniess from being stolen by malware infecting your computer.</source>
-        <translation>Din tegnebog er nu krypteret. Husk at kryptering af din tegnebog ikke kan fuldt ud beskytte dine ass-penniess imod tyveri fra malware der inficerer din computer.</translation>
+        <source>Your wallet is now encrypted. Remember that encrypting your wallet cannot fully protect your asspenniess from being stolen by malware infecting your computer.</source>
+        <translation>Din tegnebog er nu krypteret. Husk at kryptering af din tegnebog ikke kan fuldt ud beskytte dine asspenniess imod tyveri fra malware der inficerer din computer.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -342,8 +342,8 @@
         <translation>Proxy er &lt;b&gt;aktiveret&lt;/b&gt;: %1</translation>
     </message>
     <message>
-        <source>Send coins to a Ass-Pennies address</source>
-        <translation>Send ass-penniess til en Ass-Pennies-adresse</translation>
+        <source>Send coins to a AssPennies address</source>
+        <translation>Send asspenniess til en AssPennies-adresse</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -366,8 +366,8 @@
         <translation>&amp;Verificér besked…</translation>
     </message>
     <message>
-        <source>Ass-Pennies</source>
-        <translation>Ass-Pennies</translation>
+        <source>AssPennies</source>
+        <translation>AssPennies</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -390,12 +390,12 @@
         <translation>Kryptér de private nøgler, der hører til din tegnebog</translation>
     </message>
     <message>
-        <source>Sign messages with your Ass-Pennies addresses to prove you own them</source>
-        <translation>Signér beskeder med dine Ass-Pennies-adresser for at bevise, at de tilhører dig</translation>
+        <source>Sign messages with your AssPennies addresses to prove you own them</source>
+        <translation>Signér beskeder med dine AssPennies-adresser for at bevise, at de tilhører dig</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Ass-Pennies addresses</source>
-        <translation>Verificér beskeder for at sikre, at de er signeret med de angivne Ass-Pennies-adresser</translation>
+        <source>Verify messages to ensure they were signed with specified AssPennies addresses</source>
+        <translation>Verificér beskeder for at sikre, at de er signeret med de angivne AssPennies-adresser</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -414,8 +414,8 @@
         <translation>Faneværktøjslinje</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and ass-pennies: URIs)</source>
-        <translation>Anmod om betalinger (genererer QR-koder og “ass-pennies:”-URI'er)</translation>
+        <source>Request payments (generates QR codes and asspennies: URIs)</source>
+        <translation>Anmod om betalinger (genererer QR-koder og “asspennies:”-URI'er)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -426,16 +426,16 @@
         <translation>Vis listen over brugte modtagelsesadresser og -mærkater</translation>
     </message>
     <message>
-        <source>Open a ass-pennies: URI or payment request</source>
-        <translation>Åbn en “ass-pennies:”-URI eller betalingsanmodning</translation>
+        <source>Open a asspennies: URI or payment request</source>
+        <translation>Åbn en “asspennies:”-URI eller betalingsanmodning</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Tilvalg for &amp;kommandolinje</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Ass-Pennies network</source>
-        <translation><numerusform>%n aktiv forbindelse til Ass-Pennies-netværket</numerusform><numerusform>%n aktive forbindelser til Ass-Pennies-netværket</numerusform></translation>
+        <source>%n active connection(s) to AssPennies network</source>
+        <translation><numerusform>%n aktiv forbindelse til AssPennies-netværket</numerusform><numerusform>%n aktive forbindelser til AssPennies-netværket</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -502,8 +502,8 @@
         <translation>Luk tegnebog</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Ass-Pennies command-line options</source>
-        <translation>Vis %1 hjælpebesked for at få en liste over mulige tilvalg for Ass-Pennies kommandolinje</translation>
+        <source>Show the %1 help message to get a list with possible AssPennies command-line options</source>
+        <translation>Vis %1 hjælpebesked for at få en liste over mulige tilvalg for AssPennies kommandolinje</translation>
     </message>
     <message>
         <source>default wallet</source>
@@ -614,8 +614,8 @@
         <translation>Tegnebog er &lt;b&gt;krypteret&lt;/b&gt; og i øjeblikket &lt;b&gt;låst&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Ass-Pennies can no longer continue safely and will quit.</source>
-        <translation>Der opstod en fatal fejl. Ass-Pennies kan ikke længere fortsætte sikkert og vil afslutte.</translation>
+        <source>A fatal error occurred. AssPennies can no longer continue safely and will quit.</source>
+        <translation>Der opstod en fatal fejl. AssPennies kan ikke længere fortsætte sikkert og vil afslutte.</translation>
     </message>
 </context>
 <context>
@@ -804,8 +804,8 @@
         <translation>Redigér afsendelsesadresse</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Ass-Pennies address.</source>
-        <translation>Den indtastede adresse “%1” er ikke en gyldig Ass-Pennies-adresse.</translation>
+        <source>The entered address "%1" is not a valid AssPennies address.</source>
+        <translation>Den indtastede adresse “%1” er ikke en gyldig AssPennies-adresse.</translation>
     </message>
     <message>
         <source>Address "%1" already exists as a receiving address with label "%2" and so cannot be added as a sending address.</source>
@@ -901,8 +901,8 @@
         <translation>Brug tilpasset mappe for data:</translation>
     </message>
     <message>
-        <source>Ass-Pennies</source>
-        <translation>Ass-Pennies</translation>
+        <source>AssPennies</source>
+        <translation>AssPennies</translation>
     </message>
     <message>
         <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
@@ -913,8 +913,8 @@
         <translation>Omtrent %1 GB data vil blive gemt i denne mappe.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Ass-Pennies block chain.</source>
-        <translation>%1 vil downloade og gemme en kopi af Ass-Pennies-blokkæden.</translation>
+        <source>%1 will download and store a copy of the AssPennies block chain.</source>
+        <translation>%1 vil downloade og gemme en kopi af AssPennies-blokkæden.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -944,12 +944,12 @@
         <translation>Formular</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the ass-pennies network, as detailed below.</source>
-        <translation>Nylige transaktioner er måske ikke synlige endnu, og derfor kan din tegnebogs saldo være ukorrekt. Denne information vil være korrekt, når din tegnebog er færdig med at synkronisere med ass-pennies-netværket, som detaljerne herunder viser.</translation>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the asspennies network, as detailed below.</source>
+        <translation>Nylige transaktioner er måske ikke synlige endnu, og derfor kan din tegnebogs saldo være ukorrekt. Denne information vil være korrekt, når din tegnebog er færdig med at synkronisere med asspennies-netværket, som detaljerne herunder viser.</translation>
     </message>
     <message>
-        <source>Attempting to spend ass-penniess that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>Forsøg på at bruge ass-pennies, som er indeholdt i endnu-ikke-viste transaktioner, accepteres ikke af netværket.</translation>
+        <source>Attempting to spend asspenniess that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <translation>Forsøg på at bruge asspennies, som er indeholdt i endnu-ikke-viste transaktioner, accepteres ikke af netværket.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1130,8 +1130,8 @@
         <translation>&amp;Brug ubekræftede byttepenge</translation>
     </message>
     <message>
-        <source>Automatically open the Ass-Pennies client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Åbn automatisk Ass-Pennies-klientens port på routeren. Dette virker kun, når din router understøtter UPnP, og UPnP er aktiveret.</translation>
+        <source>Automatically open the AssPennies client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Åbn automatisk AssPennies-klientens port på routeren. Dette virker kun, når din router understøtter UPnP, og UPnP er aktiveret.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1146,8 +1146,8 @@
         <translation>Tillad &amp;indkommende forbindelser</translation>
     </message>
     <message>
-        <source>Connect to the Ass-Pennies network through a SOCKS5 proxy.</source>
-        <translation>Forbind til Ass-Pennies-netværket gennem en SOCKS5-proxy.</translation>
+        <source>Connect to the AssPennies network through a SOCKS5 proxy.</source>
+        <translation>Forbind til AssPennies-netværket gennem en SOCKS5-proxy.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1182,8 +1182,8 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Ass-Pennies network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Forbind til Ass-Pennies-netværket gennem en separat SOCKS5-proxy for Tors skjulte tjenester.</translation>
+        <source>Connect to the AssPennies network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Forbind til AssPennies-netværket gennem en separat SOCKS5-proxy for Tors skjulte tjenester.</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1219,7 +1219,7 @@
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Vælg standard for underopdeling af enhed, som skal vises i brugergrænsefladen og ved afsendelse af ass-penniess.</translation>
+        <translation>Vælg standard for underopdeling af enhed, som skal vises i brugergrænsefladen og ved afsendelse af asspenniess.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1293,8 +1293,8 @@
         <translation>Formular</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Ass-Pennies network after a connection is established, but this process has not completed yet.</source>
-        <translation>Den viste information kan være forældet. Din tegnebog synkroniserer automatisk med Ass-Pennies-netværket, når en forbindelse etableres, men denne proces er ikke gennemført endnu.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the AssPennies network after a connection is established, but this process has not completed yet.</source>
+        <translation>Den viste information kan være forældet. Din tegnebog synkroniserer automatisk med AssPennies-netværket, når en forbindelse etableres, men denne proces er ikke gennemført endnu.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1368,16 +1368,16 @@
         <translation>Fejl i betalingsanmodning</translation>
     </message>
     <message>
-        <source>Cannot start ass-pennies: click-to-pay handler</source>
-        <translation>Kan ikke starte ass-pennies: click-to-pay-håndtering</translation>
+        <source>Cannot start asspennies: click-to-pay handler</source>
+        <translation>Kan ikke starte asspennies: click-to-pay-håndtering</translation>
     </message>
     <message>
         <source>URI handling</source>
         <translation>URI-håndtering</translation>
     </message>
     <message>
-        <source>'ass-pennies://' is not a valid URI. Use 'ass-pennies:' instead.</source>
-        <translation>'ass-pennies://' er ikke et gyldigt URI. Brug 'ass-pennies:' istedet. </translation>
+        <source>'asspennies://' is not a valid URI. Use 'asspennies:' instead.</source>
+        <translation>'asspennies://' er ikke et gyldigt URI. Brug 'asspennies:' istedet. </translation>
     </message>
     <message>
         <source>You are using a BIP70 URL which will be unsupported in the future.</source>
@@ -1396,8 +1396,8 @@
         <translation>Ugyldig betalingsadresse %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Ass-Pennies address or malformed URI parameters.</source>
-        <translation>URI kan ikke tolkes! Dette kan skyldes en ugyldig Ass-Pennies-adresse eller forkert udformede URL-parametre.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid AssPennies address or malformed URI parameters.</source>
+        <translation>URI kan ikke tolkes! Dette kan skyldes en ugyldig AssPennies-adresse eller forkert udformede URL-parametre.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1498,8 +1498,8 @@
         <translation>Beløb</translation>
     </message>
     <message>
-        <source>Enter a Ass-Pennies address (e.g. %1)</source>
-        <translation>Indtast en Ass-Pennies-adresse (fx %1)</translation>
+        <source>Enter a AssPennies address (e.g. %1)</source>
+        <translation>Indtast en AssPennies-adresse (fx %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1954,8 +1954,8 @@
         <translation>&amp;Besked:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Ass-Pennies network.</source>
-        <translation>En valgfri besked, der føjes til betalingsanmodningen, og som vil vises, når anmodningen åbnes. Bemærk: Beskeden vil ikke sendes sammen med betalingen over Ass-Pennies-netværket.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the AssPennies network.</source>
+        <translation>En valgfri besked, der føjes til betalingsanmodningen, og som vil vises, når anmodningen åbnes. Bemærk: Beskeden vil ikke sendes sammen med betalingen over AssPennies-netværket.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2120,7 +2120,7 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Send ass-penniess</translation>
+        <translation>Send asspenniess</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -2235,8 +2235,8 @@ Note: Siden gebyret er kalkuleret på en per-byte basis, et gebyr på "100 satos
         <translation>Støv:</translation>
     </message>
     <message>
-        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for ass-pennies transactions than the network can process.</source>
-        <translation>På tidspunkter, hvor der er færre transaktioner, end der er plads til i nye blokke, kan minere og videresendende knuder gennemtvinge et minimumsgebyr. Du kan vælge kun at betale dette minimumsgebyr, men vær opmærksom på, at det kan resultere i en transaktion, der aldrig bliver bekræftet, hvis mængden af nye ass-pennies-transaktioner stiger til mere, end hvad netværket kan behandle ad gangen.</translation>
+        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for asspennies transactions than the network can process.</source>
+        <translation>På tidspunkter, hvor der er færre transaktioner, end der er plads til i nye blokke, kan minere og videresendende knuder gennemtvinge et minimumsgebyr. Du kan vælge kun at betale dette minimumsgebyr, men vær opmærksom på, at det kan resultere i en transaktion, der aldrig bliver bekræftet, hvis mængden af nye asspennies-transaktioner stiger til mere, end hvad netværket kan behandle ad gangen.</translation>
     </message>
     <message>
         <source>A too low fee might result in a never confirming transaction (read the tooltip)</source>
@@ -2340,7 +2340,7 @@ Note: Siden gebyret er kalkuleret på en per-byte basis, et gebyr på "100 satos
     </message>
     <message>
         <source>Confirm send coins</source>
-        <translation>Bekræft afsendelse af ass-penniess</translation>
+        <translation>Bekræft afsendelse af asspenniess</translation>
     </message>
     <message>
         <source>The recipient address is not valid. Please recheck.</source>
@@ -2383,8 +2383,8 @@ Note: Siden gebyret er kalkuleret på en per-byte basis, et gebyr på "100 satos
         <translation><numerusform>Bekræftelse estimeret til at begynde om %n blok.</numerusform><numerusform>Bekræftelse estimeret til at begynde om %n blokke.</numerusform></translation>
     </message>
     <message>
-        <source>Warning: Invalid Ass-Pennies address</source>
-        <translation>Advarsel: Ugyldig Ass-Pennies-adresse</translation>
+        <source>Warning: Invalid AssPennies address</source>
+        <translation>Advarsel: Ugyldig AssPennies-adresse</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2426,8 +2426,8 @@ Note: Siden gebyret er kalkuleret på en per-byte basis, et gebyr på "100 satos
         <translation>Dette er en normal betaling.</translation>
     </message>
     <message>
-        <source>The Ass-Pennies address to send the payment to</source>
-        <translation>Ass-Pennies-adresse, som betalingen skal sendes til</translation>
+        <source>The AssPennies address to send the payment to</source>
+        <translation>AssPennies-adresse, som betalingen skal sendes til</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2446,8 +2446,8 @@ Note: Siden gebyret er kalkuleret på en per-byte basis, et gebyr på "100 satos
         <translation>Fjern denne indgang</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less ass-penniess than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>Gebyret vil blive trukket fra det sendte beløb. Modtageren vil modtage færre ass-pennies, end du indtaster i beløbfeltet. Hvis flere modtagere vælges, vil gebyret deles ligeligt.</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less asspenniess than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>Gebyret vil blive trukket fra det sendte beløb. Modtageren vil modtage færre asspennies, end du indtaster i beløbfeltet. Hvis flere modtagere vælges, vil gebyret deles ligeligt.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2474,8 +2474,8 @@ Note: Siden gebyret er kalkuleret på en per-byte basis, et gebyr på "100 satos
         <translation>Indtast et mærkat for denne adresse for at føje den til listen over brugte adresser</translation>
     </message>
     <message>
-        <source>A message that was attached to the ass-pennies: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Ass-Pennies network.</source>
-        <translation>En besked, som blev føjet til “bitcon:”-URI'en, som vil gemmes med transaktionen til din reference. Bemærk: Denne besked vil ikke blive sendt over Ass-Pennies-netværket.</translation>
+        <source>A message that was attached to the asspennies: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the AssPennies network.</source>
+        <translation>En besked, som blev føjet til “bitcon:”-URI'en, som vil gemmes med transaktionen til din reference. Bemærk: Denne besked vil ikke blive sendt over AssPennies-netværket.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2519,12 +2519,12 @@ Note: Siden gebyret er kalkuleret på en per-byte basis, et gebyr på "100 satos
         <translation>&amp;Singér besked</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive ass-penniess sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Du kan signere beskeder/aftaler med dine adresser for at bevise, at du kan modtage ass-pennies, der bliver sendt til adresserne. Vær forsigtig med ikke at signere noget vagt eller tilfældigt, da eventuelle phishing-angreb kan snyde dig til at overlade din identitet til dem. Signér kun fuldt ud detaljerede udsagn, som du er enig i.</translation>
+        <source>You can sign messages/agreements with your addresses to prove you can receive asspenniess sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>Du kan signere beskeder/aftaler med dine adresser for at bevise, at du kan modtage asspennies, der bliver sendt til adresserne. Vær forsigtig med ikke at signere noget vagt eller tilfældigt, da eventuelle phishing-angreb kan snyde dig til at overlade din identitet til dem. Signér kun fuldt ud detaljerede udsagn, som du er enig i.</translation>
     </message>
     <message>
-        <source>The Ass-Pennies address to sign the message with</source>
-        <translation>Ass-Pennies-adresse, som beskeden skal signeres med</translation>
+        <source>The AssPennies address to sign the message with</source>
+        <translation>AssPennies-adresse, som beskeden skal signeres med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2555,8 +2555,8 @@ Note: Siden gebyret er kalkuleret på en per-byte basis, et gebyr på "100 satos
         <translation>Kopiér den nuværende signatur til systemets udklipsholder</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Ass-Pennies address</source>
-        <translation>Signér denne besked for at bevise, at Ass-Pennies-adressen tilhører dig</translation>
+        <source>Sign the message to prove you own this AssPennies address</source>
+        <translation>Signér denne besked for at bevise, at AssPennies-adressen tilhører dig</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2579,12 +2579,12 @@ Note: Siden gebyret er kalkuleret på en per-byte basis, et gebyr på "100 satos
         <translation>Indtast modtagerens adresse, besked (vær sikker på at kopiere linjeskift, mellemrum, tabuleringer, etc. præcist) og signatur herunder for at verificere beskeden. Vær forsigtig med ikke at læse noget ud fra signaturen, som ikke står i selve beskeden, for at undgå at blive snydt af et eventuelt man-in-the-middle-angreb. Bemærk, at dette kun beviser, at den signerende person kan modtage med adressen; det kan ikke bevise hvem der har sendt en given transaktion!</translation>
     </message>
     <message>
-        <source>The Ass-Pennies address the message was signed with</source>
-        <translation>Ass-Pennies-adressen, som beskeden blev signeret med</translation>
+        <source>The AssPennies address the message was signed with</source>
+        <translation>AssPennies-adressen, som beskeden blev signeret med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Ass-Pennies address</source>
-        <translation>Verificér beskeden for at sikre, at den er signeret med den angivne Ass-Pennies-adresse</translation>
+        <source>Verify the message to ensure it was signed with the specified AssPennies address</source>
+        <translation>Verificér beskeden for at sikre, at den er signeret med den angivne AssPennies-adresse</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2801,7 +2801,7 @@ Note: Siden gebyret er kalkuleret på en per-byte basis, et gebyr på "100 satos
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Minede ass-penniess skal modne %1 blokke, før de kan bruges. Da du genererede denne blok, blev den transmitteret til netværket for at blive føjet til blokkæden. Hvis det ikke lykkes at få den i kæden, vil dens tilstand ændres til “ikke accepteret”, og den vil ikke kunne bruges. Dette kan ske nu og da, hvis en anden knude udvinder en blok inden for nogle få sekunder fra din.</translation>
+        <translation>Minede asspenniess skal modne %1 blokke, før de kan bruges. Da du genererede denne blok, blev den transmitteret til netværket for at blive føjet til blokkæden. Hvis det ikke lykkes at få den i kæden, vil dens tilstand ændres til “ikke accepteret”, og den vil ikke kunne bruges. Dette kan ske nu og da, hvis en anden knude udvinder en blok inden for nogle få sekunder fra din.</translation>
     </message>
     <message>
         <source>Debug information</source>
@@ -3138,7 +3138,7 @@ Note: Siden gebyret er kalkuleret på en per-byte basis, et gebyr på "100 satos
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Send ass-penniess</translation>
+        <translation>Send asspenniess</translation>
     </message>
     <message>
         <source>Fee bump error</source>
@@ -3251,8 +3251,8 @@ Note: Siden gebyret er kalkuleret på en per-byte basis, et gebyr på "100 satos
         <translation>Kunne ikke starte HTTP-server. Se fejlretningslog for detaljer.</translation>
     </message>
     <message>
-        <source>Ass-Pennies Core</source>
-        <translation>Ass-Pennies Core</translation>
+        <source>AssPennies Core</source>
+        <translation>AssPennies Core</translation>
     </message>
     <message>
         <source>The %s developers</source>

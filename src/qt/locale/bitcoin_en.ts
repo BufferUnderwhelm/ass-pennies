@@ -85,12 +85,12 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>These are your Ass-Pennies addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your AssPennies addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+5"/>
-        <source>These are your Ass-Pennies addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your AssPennies addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -237,7 +237,7 @@
     </message>
     <message>
         <location line="-56"/>
-        <source>Your wallet is now encrypted. Remember that encrypting your wallet cannot fully protect your ass-penniess from being stolen by malware infecting your computer.</source>
+        <source>Your wallet is now encrypted. Remember that encrypting your wallet cannot fully protect your asspenniess from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -436,8 +436,8 @@
     </message>
     <message>
         <location line="-1034"/>
-        <source>Send coins to a Ass-Pennies address</source>
-        <translation>Send coins to a Ass-Pennies address</translation>
+        <source>Send coins to a AssPennies address</source>
+        <translation>Send coins to a AssPennies address</translation>
     </message>
     <message>
         <location line="+67"/>
@@ -466,8 +466,8 @@
     </message>
     <message>
         <location line="+724"/>
-        <source>Ass-Pennies</source>
-        <translation>Ass-Pennies</translation>
+        <source>AssPennies</source>
+        <translation>AssPennies</translation>
     </message>
     <message>
         <location line="-797"/>
@@ -496,13 +496,13 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Ass-Pennies addresses to prove you own them</source>
-        <translation>Sign messages with your Ass-Pennies addresses to prove you own them</translation>
+        <source>Sign messages with your AssPennies addresses to prove you own them</source>
+        <translation>Sign messages with your AssPennies addresses to prove you own them</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Ass-Pennies addresses</source>
-        <translation>Verify messages to ensure they were signed with specified Ass-Pennies addresses</translation>
+        <source>Verify messages to ensure they were signed with specified AssPennies addresses</source>
+        <translation>Verify messages to ensure they were signed with specified AssPennies addresses</translation>
     </message>
     <message>
         <location line="+118"/>
@@ -526,7 +526,7 @@
     </message>
     <message>
         <location line="-271"/>
-        <source>Request payments (generates QR codes and ass-pennies: URIs)</source>
+        <source>Request payments (generates QR codes and asspennies: URIs)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -541,7 +541,7 @@
     </message>
     <message>
         <location line="+3"/>
-        <source>Open a ass-pennies: URI or payment request</source>
+        <source>Open a asspennies: URI or payment request</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -551,10 +551,10 @@
     </message>
     <message numerus="yes">
         <location line="+540"/>
-        <source>%n active connection(s) to Ass-Pennies network</source>
+        <source>%n active connection(s) to AssPennies network</source>
         <translation>
-            <numerusform>%n active connection to Ass-Pennies network</numerusform>
-            <numerusform>%n active connections to Ass-Pennies network</numerusform>
+            <numerusform>%n active connection to AssPennies network</numerusform>
+            <numerusform>%n active connections to AssPennies network</numerusform>
         </translation>
     </message>
     <message>
@@ -642,7 +642,7 @@
     </message>
     <message>
         <location line="+4"/>
-        <source>Show the %1 help message to get a list with possible Ass-Pennies command-line options</source>
+        <source>Show the %1 help message to get a list with possible AssPennies command-line options</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -778,7 +778,7 @@
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+392"/>
-        <source>A fatal error occurred. Ass-Pennies can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. AssPennies can no longer continue safely and will quit.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1016,7 +1016,7 @@
     </message>
     <message>
         <location line="+75"/>
-        <source>The entered address &quot;%1&quot; is not a valid Ass-Pennies address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid AssPennies address.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1136,8 +1136,8 @@
     </message>
     <message>
         <location filename="../intro.cpp" line="+22"/>
-        <source>Ass-Pennies</source>
-        <translation type="unfinished">Ass-Pennies</translation>
+        <source>AssPennies</source>
+        <translation type="unfinished">AssPennies</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -1151,7 +1151,7 @@
     </message>
     <message>
         <location line="+8"/>
-        <source>%1 will download and store a copy of the Ass-Pennies block chain.</source>
+        <source>%1 will download and store a copy of the AssPennies block chain.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1195,12 +1195,12 @@
     </message>
     <message>
         <location line="+119"/>
-        <source>Recent transactions may not yet be visible, and therefore your wallet&apos;s balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the ass-pennies network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet&apos;s balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the asspennies network, as detailed below.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+19"/>
-        <source>Attempting to spend ass-penniess that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <source>Attempting to spend asspenniess that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1433,8 +1433,8 @@
     </message>
     <message>
         <location line="+30"/>
-        <source>Automatically open the Ass-Pennies client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatically open the Ass-Pennies client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
+        <source>Automatically open the AssPennies client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatically open the AssPennies client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1453,7 +1453,7 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Ass-Pennies network through a SOCKS5 proxy.</source>
+        <source>Connect to the AssPennies network through a SOCKS5 proxy.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1501,7 +1501,7 @@
     </message>
     <message>
         <location line="+25"/>
-        <source>Connect to the Ass-Pennies network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <source>Connect to the AssPennies network through a separate SOCKS5 proxy for Tor hidden services.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1641,8 +1641,8 @@
     <message>
         <location line="+62"/>
         <location line="+386"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Ass-Pennies network after a connection is established, but this process has not completed yet.</source>
-        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Ass-Pennies network after a connection is established, but this process has not completed yet.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the AssPennies network after a connection is established, but this process has not completed yet.</source>
+        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the AssPennies network after a connection is established, but this process has not completed yet.</translation>
     </message>
     <message>
         <location line="-139"/>
@@ -1739,7 +1739,7 @@
     </message>
     <message>
         <location line="-529"/>
-        <source>Cannot start ass-pennies: click-to-pay handler</source>
+        <source>Cannot start asspennies: click-to-pay handler</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1754,7 +1754,7 @@
     </message>
     <message>
         <location line="-53"/>
-        <source>&apos;ass-pennies://&apos; is not a valid URI. Use &apos;ass-pennies:&apos; instead.</source>
+        <source>&apos;asspennies://&apos; is not a valid URI. Use &apos;asspennies:&apos; instead.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1780,7 +1780,7 @@
     </message>
     <message>
         <location line="+8"/>
-        <source>URI cannot be parsed! This can be caused by an invalid Ass-Pennies address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid AssPennies address or malformed URI parameters.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1913,7 +1913,7 @@
     </message>
     <message>
         <location filename="../guiutil.cpp" line="+108"/>
-        <source>Enter a Ass-Pennies address (e.g. %1)</source>
+        <source>Enter a AssPennies address (e.g. %1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2540,7 +2540,7 @@
     <message>
         <location line="-3"/>
         <location line="+46"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Ass-Pennies network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the AssPennies network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2889,7 +2889,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of &quot;100 satos
     </message>
     <message>
         <location line="+543"/>
-        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for ass-pennies transactions than the network can process.</source>
+        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for asspennies transactions than the network can process.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3080,7 +3080,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of &quot;100 satos
     </message>
     <message>
         <location line="+101"/>
-        <source>Warning: Invalid Ass-Pennies address</source>
+        <source>Warning: Invalid AssPennies address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3135,7 +3135,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of &quot;100 satos
     </message>
     <message>
         <location line="+39"/>
-        <source>The Ass-Pennies address to send the payment to</source>
+        <source>The AssPennies address to send the payment to</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3162,7 +3162,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of &quot;100 satos
     </message>
     <message>
         <location line="-1028"/>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less ass-penniess than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less asspenniess than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3197,7 +3197,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of &quot;100 satos
     </message>
     <message>
         <location line="+54"/>
-        <source>A message that was attached to the ass-pennies: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Ass-Pennies network.</source>
+        <source>A message that was attached to the asspennies: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the AssPennies network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3254,12 +3254,12 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of &quot;100 satos
     </message>
     <message>
         <location line="+6"/>
-        <source>You can sign messages/agreements with your addresses to prove you can receive ass-penniess sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <source>You can sign messages/agreements with your addresses to prove you can receive asspenniess sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The Ass-Pennies address to sign the message with</source>
+        <source>The AssPennies address to sign the message with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3301,8 +3301,8 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of &quot;100 satos
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Ass-Pennies address</source>
-        <translation>Sign the message to prove you own this Ass-Pennies address</translation>
+        <source>Sign the message to prove you own this AssPennies address</source>
+        <translation>Sign the message to prove you own this AssPennies address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3332,13 +3332,13 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of &quot;100 satos
     </message>
     <message>
         <location line="+21"/>
-        <source>The Ass-Pennies address the message was signed with</source>
+        <source>The AssPennies address the message was signed with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+37"/>
-        <source>Verify the message to ensure it was signed with the specified Ass-Pennies address</source>
-        <translation>Verify the message to ensure it was signed with the specified Ass-Pennies address</translation>
+        <source>Verify the message to ensure it was signed with the specified AssPennies address</source>
+        <translation>Verify the message to ensure it was signed with the specified AssPennies address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -4195,8 +4195,8 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of &quot;100 satos
     </message>
     <message>
         <location line="-170"/>
-        <source>Ass-Pennies Core</source>
-        <translation type="unfinished">Ass-Pennies Core</translation>
+        <source>AssPennies Core</source>
+        <translation type="unfinished">AssPennies Core</translation>
     </message>
     <message>
         <location line="+1"/>

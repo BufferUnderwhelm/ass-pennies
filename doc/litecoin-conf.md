@@ -1,6 +1,6 @@
-# `ass-pennies.conf` Configuration File
+# `asspennies.conf` Configuration File
 
-The configuration file is used by `ass-penniesd`, `ass-pennies-qt` and `ass-pennies-cli`.
+The configuration file is used by `asspenniesd`, `asspennies-qt` and `asspennies-cli`.
 
 All command-line options (except for `-?`, `-help`, `-version` and `-conf`) may be specified in a configuration file, and all configuration file options (except for `includeconf`) may also be specified on the command line. Command-line options override values set in the configuration file and configuration file options override values set in the GUI.
 
@@ -32,6 +32,6 @@ Network specific options can be:
 
 ## Configuration File Path
 
-The configuration file is not automatically created; you can create it using your favorite text editor. By default, the configuration file name is `ass-pennies.conf` and it is located in the Ass-Pennies data directory, but both the Ass-Pennies data directory and the configuration file path may be changed using the `-datadir` and `-conf` command-line options.
+The configuration file is not automatically created; you can create it using your favorite text editor. By default, the configuration file name is `asspennies.conf` and it is located in the AssPennies data directory, but both the AssPennies data directory and the configuration file path may be changed using the `-datadir` and `-conf` command-line options.
 
-The `includeconf=<file>` option in the `ass-pennies.conf` file can be used to include additional configuration files.
+The `includeconf=<file>` option in the `asspennies.conf` file can be used to include additional configuration files.

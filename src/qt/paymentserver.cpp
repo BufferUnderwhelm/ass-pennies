@@ -48,15 +48,15 @@
 #include <QUrlQuery>
 
 const int BITCOIN_IPC_CONNECT_TIMEOUT = 1000; // milliseconds
-const QString BITCOIN_IPC_PREFIX("ass-pennies:");
+const QString BITCOIN_IPC_PREFIX("asspennies:");
 #ifdef ENABLE_BIP70
 // BIP70 payment protocol messages
 const char* BIP70_MESSAGE_PAYMENTACK = "PaymentACK";
 const char* BIP70_MESSAGE_PAYMENTREQUEST = "PaymentRequest";
 // BIP71 payment protocol media types
-const char* BIP71_MIMETYPE_PAYMENT = "application/ass-pennies-payment";
-const char* BIP71_MIMETYPE_PAYMENTACK = "application/ass-pennies-paymentack";
-const char* BIP71_MIMETYPE_PAYMENTREQUEST = "application/ass-pennies-paymentrequest";
+const char* BIP71_MIMETYPE_PAYMENT = "application/asspennies-payment";
+const char* BIP71_MIMETYPE_PAYMENTACK = "application/asspennies-paymentack";
+const char* BIP71_MIMETYPE_PAYMENTREQUEST = "application/asspennies-paymentrequest";
 #endif
 
 //
@@ -66,7 +66,7 @@ const char* BIP71_MIMETYPE_PAYMENTREQUEST = "application/ass-pennies-paymentrequ
 //
 static QString ipcServerName()
 {
-    QString name("Ass-PenniesQt");
+    QString name("AssPenniesQt");
 
     // Append a simple hash of the datadir
     // Note that GetDataDir(true) returns a different path
@@ -224,7 +224,7 @@ PaymentServer::PaymentServer(QObject* parent, bool startLocalServer) :
         if (!uriServer->listen(name)) {
             // constructor is called early in init, so don't use "Q_EMIT message()" here
             QMessageBox::critical(nullptr, tr("Payment request error"),
-                tr("Cannot start ass-pennies: click-to-pay handler"));
+                tr("Cannot start asspennies: click-to-pay handler"));
         }
         else {
             connect(uriServer, &QLocalServer::newConnection, this, &PaymentServer::handleURIConnection);
@@ -284,9 +284,9 @@ void PaymentServer::handleURIOrFile(const QString& s)
         return;
     }
 
-    if (s.startsWith("ass-pennies://", Qt::CaseInsensitive))
+    if (s.startsWith("asspennies://", Qt::CaseInsensitive))
     {
-        Q_EMIT message(tr("URI handling"), tr("'ass-pennies://' is not a valid URI. Use 'ass-pennies:' instead."),
+        Q_EMIT message(tr("URI handling"), tr("'asspennies://' is not a valid URI. Use 'asspennies:' instead."),
             CClientUIInterface::MSG_ERROR);
     }
     else if (s.startsWith(BITCOIN_IPC_PREFIX, Qt::CaseInsensitive)) // bitcoin: URI
@@ -340,7 +340,7 @@ void PaymentServer::handleURIOrFile(const QString& s)
             }
             else
                 Q_EMIT message(tr("URI handling"),
-                    tr("URI cannot be parsed! This can be caused by an invalid Ass-Pennies address or malformed URI parameters."),
+                    tr("URI cannot be parsed! This can be caused by an invalid AssPennies address or malformed URI parameters."),
                     CClientUIInterface::ICON_WARNING);
 
             return;

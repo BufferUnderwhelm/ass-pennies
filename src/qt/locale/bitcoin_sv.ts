@@ -66,12 +66,12 @@
         <translation>Mottagaradresser</translation>
     </message>
     <message>
-        <source>These are your Ass-Pennies addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Detta är dina Ass-Pennies-adresser för att skicka betalningar. Kontrollera alltid belopp och mottagaradress innan du skickar ass-pennies.</translation>
+        <source>These are your AssPennies addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Detta är dina AssPennies-adresser för att skicka betalningar. Kontrollera alltid belopp och mottagaradress innan du skickar asspennies.</translation>
     </message>
     <message>
-        <source>These are your Ass-Pennies addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Detta är dina Ass-Pennies-adresser för att ta emot betalningar. Det rekommenderas att använda en ny mottagaradress för varje transaktion.</translation>
+        <source>These are your AssPennies addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Detta är dina AssPennies-adresser för att ta emot betalningar. Det rekommenderas att använda en ny mottagaradress för varje transaktion.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -189,8 +189,8 @@ Försök igen.</translation>
         <translation>Plånbok krypterad</translation>
     </message>
     <message>
-        <source>Your wallet is now encrypted. Remember that encrypting your wallet cannot fully protect your ass-penniess from being stolen by malware infecting your computer.</source>
-        <translation>Din plånbok är nu krypterad. Kom ihåg att kryptering av plånboken inte helt skyddar dina ass-pennies från att stjälas av skadlig kod som infekterat din dator.</translation>
+        <source>Your wallet is now encrypted. Remember that encrypting your wallet cannot fully protect your asspenniess from being stolen by malware infecting your computer.</source>
+        <translation>Din plånbok är nu krypterad. Kom ihåg att kryptering av plånboken inte helt skyddar dina asspennies från att stjälas av skadlig kod som infekterat din dator.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -343,8 +343,8 @@ Försök igen.</translation>
         <translation>Proxy är &lt;b&gt; aktiverad &lt;/b&gt;: %1</translation>
     </message>
     <message>
-        <source>Send coins to a Ass-Pennies address</source>
-        <translation>Skicka ass-pennies till en Ass-Pennies-adress</translation>
+        <source>Send coins to a AssPennies address</source>
+        <translation>Skicka asspennies till en AssPennies-adress</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -367,8 +367,8 @@ Försök igen.</translation>
         <translation>&amp;Verifiera meddelande...</translation>
     </message>
     <message>
-        <source>Ass-Pennies</source>
-        <translation>Ass-Pennies</translation>
+        <source>AssPennies</source>
+        <translation>AssPennies</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -391,12 +391,12 @@ Försök igen.</translation>
         <translation>Kryptera de privata nycklar som tillhör din plånbok</translation>
     </message>
     <message>
-        <source>Sign messages with your Ass-Pennies addresses to prove you own them</source>
-        <translation>Signera meddelanden med dina Ass-Pennies-adresser för att bevisa att du äger dem</translation>
+        <source>Sign messages with your AssPennies addresses to prove you own them</source>
+        <translation>Signera meddelanden med dina AssPennies-adresser för att bevisa att du äger dem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Ass-Pennies addresses</source>
-        <translation>Verifiera meddelanden för att vara säker på att de signerades med angivna Ass-Pennies-adresser</translation>
+        <source>Verify messages to ensure they were signed with specified AssPennies addresses</source>
+        <translation>Verifiera meddelanden för att vara säker på att de signerades med angivna AssPennies-adresser</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -415,8 +415,8 @@ Försök igen.</translation>
         <translation>Verktygsfält för flikar</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and ass-pennies: URIs)</source>
-        <translation>Begär betalningar (skapar QR-koder och ass-pennies: -URIer)</translation>
+        <source>Request payments (generates QR codes and asspennies: URIs)</source>
+        <translation>Begär betalningar (skapar QR-koder och asspennies: -URIer)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -427,16 +427,16 @@ Försök igen.</translation>
         <translation>Visa listan med använda mottagaradresser och etiketter</translation>
     </message>
     <message>
-        <source>Open a ass-pennies: URI or payment request</source>
-        <translation>Öppna en ass-pennies: URI eller betalningsbegäran</translation>
+        <source>Open a asspennies: URI or payment request</source>
+        <translation>Öppna en asspennies: URI eller betalningsbegäran</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Kommandoradsalternativ</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Ass-Pennies network</source>
-        <translation><numerusform>%n aktiva anslutningar till Ass-Pennies-nätverket.</numerusform><numerusform>%n aktiva anslutningar till Ass-Pennies-nätverket.</numerusform></translation>
+        <source>%n active connection(s) to AssPennies network</source>
+        <translation><numerusform>%n aktiva anslutningar till AssPennies-nätverket.</numerusform><numerusform>%n aktiva anslutningar till AssPennies-nätverket.</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -503,8 +503,8 @@ Försök igen.</translation>
         <translation>Stäng plånboken</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Ass-Pennies command-line options</source>
-        <translation>Visa %1 hjälpmeddelande för att få en lista med möjliga Ass-Pennies kommandoradsalternativ.</translation>
+        <source>Show the %1 help message to get a list with possible AssPennies command-line options</source>
+        <translation>Visa %1 hjälpmeddelande för att få en lista med möjliga AssPennies kommandoradsalternativ.</translation>
     </message>
     <message>
         <source>default wallet</source>
@@ -615,8 +615,8 @@ Försök igen.</translation>
         <translation>Denna plånbok är &lt;b&gt;krypterad&lt;/b&gt; och för närvarande &lt;b&gt;låst&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Ass-Pennies can no longer continue safely and will quit.</source>
-        <translation>Ett kritiskt fel uppstod. Ass-Pennies kan inte fortsätta att köra säkert och kommer att avslutas.</translation>
+        <source>A fatal error occurred. AssPennies can no longer continue safely and will quit.</source>
+        <translation>Ett kritiskt fel uppstod. AssPennies kan inte fortsätta att köra säkert och kommer att avslutas.</translation>
     </message>
 </context>
 <context>
@@ -805,8 +805,8 @@ Försök igen.</translation>
         <translation>Redigera avsändaradress</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Ass-Pennies address.</source>
-        <translation>Den angivna adressen "%1" är inte en giltig Ass-Pennies-adress.</translation>
+        <source>The entered address "%1" is not a valid AssPennies address.</source>
+        <translation>Den angivna adressen "%1" är inte en giltig AssPennies-adress.</translation>
     </message>
     <message>
         <source>Address "%1" already exists as a receiving address with label "%2" and so cannot be added as a sending address.</source>
@@ -902,8 +902,8 @@ Försök igen.</translation>
         <translation>Använd en anpassad datakatalog:</translation>
     </message>
     <message>
-        <source>Ass-Pennies</source>
-        <translation>Ass-Pennies</translation>
+        <source>AssPennies</source>
+        <translation>AssPennies</translation>
     </message>
     <message>
         <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
@@ -914,8 +914,8 @@ Försök igen.</translation>
         <translation>Ungefär %1 GB data kommer att lagras i den här katalogen.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Ass-Pennies block chain.</source>
-        <translation>%1 kommer att ladda ner och lagra en kopia av Ass-Penniess blockkedja.</translation>
+        <source>%1 will download and store a copy of the AssPennies block chain.</source>
+        <translation>%1 kommer att ladda ner och lagra en kopia av AssPenniess blockkedja.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -945,12 +945,12 @@ Försök igen.</translation>
         <translation>Formulär</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the ass-pennies network, as detailed below.</source>
-        <translation>Nyligen gjorda transaktioner visas inte korrekt och därför kan din plånboks saldo visas felaktigt. Denna information kommer att visas korrekt så snart din plånbok har synkroniserats med Ass-Pennies-nätverket enligt informationen nedan.</translation>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the asspennies network, as detailed below.</source>
+        <translation>Nyligen gjorda transaktioner visas inte korrekt och därför kan din plånboks saldo visas felaktigt. Denna information kommer att visas korrekt så snart din plånbok har synkroniserats med AssPennies-nätverket enligt informationen nedan.</translation>
     </message>
     <message>
-        <source>Attempting to spend ass-penniess that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>Att försöka spendera ass-pennies som påverkas av transaktioner som ännu inte visas kommer inte accepteras av nätverket. </translation>
+        <source>Attempting to spend asspenniess that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <translation>Att försöka spendera asspennies som påverkas av transaktioner som ännu inte visas kommer inte accepteras av nätverket. </translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1131,8 +1131,8 @@ Försök igen.</translation>
         <translation>&amp;Spendera obekräftad växel</translation>
     </message>
     <message>
-        <source>Automatically open the Ass-Pennies client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Öppna automatiskt Ass-Pennies-klientens port på routern. Detta fungerar endast om din router stödjer UPnP och det är är aktiverat.</translation>
+        <source>Automatically open the AssPennies client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Öppna automatiskt AssPennies-klientens port på routern. Detta fungerar endast om din router stödjer UPnP och det är är aktiverat.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1147,8 +1147,8 @@ Försök igen.</translation>
         <translation>Tillåt inkommande anslutningar</translation>
     </message>
     <message>
-        <source>Connect to the Ass-Pennies network through a SOCKS5 proxy.</source>
-        <translation>Anslut till Ass-Pennies-nätverket genom en SOCKS5-proxy.</translation>
+        <source>Connect to the AssPennies network through a SOCKS5 proxy.</source>
+        <translation>Anslut till AssPennies-nätverket genom en SOCKS5-proxy.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1183,8 +1183,8 @@ Försök igen.</translation>
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Ass-Pennies network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Anslut till Ass-Pennies-nätverket genom en separat SOCKS5-proxy för dolda tjänster i Tor.</translation>
+        <source>Connect to the AssPennies network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Anslut till AssPennies-nätverket genom en separat SOCKS5-proxy för dolda tjänster i Tor.</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1294,8 +1294,8 @@ Försök igen.</translation>
         <translation>Formulär</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Ass-Pennies network after a connection is established, but this process has not completed yet.</source>
-        <translation>Den visade informationen kan vara inaktuell. Plånboken synkroniseras automatiskt med Ass-Pennies-nätverket efter att anslutningen är upprättad, men denna process har inte slutförts ännu.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the AssPennies network after a connection is established, but this process has not completed yet.</source>
+        <translation>Den visade informationen kan vara inaktuell. Plånboken synkroniseras automatiskt med AssPennies-nätverket efter att anslutningen är upprättad, men denna process har inte slutförts ännu.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1369,16 +1369,16 @@ Försök igen.</translation>
         <translation>Fel vid betalningsbegäran</translation>
     </message>
     <message>
-        <source>Cannot start ass-pennies: click-to-pay handler</source>
-        <translation>Kan inte starta ass-pennies: klicka-och-betala hanteraren</translation>
+        <source>Cannot start asspennies: click-to-pay handler</source>
+        <translation>Kan inte starta asspennies: klicka-och-betala hanteraren</translation>
     </message>
     <message>
         <source>URI handling</source>
         <translation>URI-hantering</translation>
     </message>
     <message>
-        <source>'ass-pennies://' is not a valid URI. Use 'ass-pennies:' instead.</source>
-        <translation>'ass-pennies://' är inte en accepterad URI. Använd 'ass-pennies:' istället.</translation>
+        <source>'asspennies://' is not a valid URI. Use 'asspennies:' instead.</source>
+        <translation>'asspennies://' är inte en accepterad URI. Använd 'asspennies:' istället.</translation>
     </message>
     <message>
         <source>You are using a BIP70 URL which will be unsupported in the future.</source>
@@ -1397,8 +1397,8 @@ Försök igen.</translation>
         <translation>Ogiltig betalningsadress %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Ass-Pennies address or malformed URI parameters.</source>
-        <translation>URI kan inte parsas! Detta kan orsakas av en ogiltig Ass-Pennies-adress eller felaktiga URI-parametrar.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid AssPennies address or malformed URI parameters.</source>
+        <translation>URI kan inte parsas! Detta kan orsakas av en ogiltig AssPennies-adress eller felaktiga URI-parametrar.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1499,8 +1499,8 @@ Försök igen.</translation>
         <translation>Belopp</translation>
     </message>
     <message>
-        <source>Enter a Ass-Pennies address (e.g. %1)</source>
-        <translation>Ange en Ass-Pennies-adress (t.ex. %1)</translation>
+        <source>Enter a AssPennies address (e.g. %1)</source>
+        <translation>Ange en AssPennies-adress (t.ex. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1955,8 +1955,8 @@ Försök igen.</translation>
         <translation>&amp;Meddelande:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Ass-Pennies network.</source>
-        <translation>Ett valfritt meddelande att bifoga betalningsbegäran, vilket visas när begäran öppnas. Obs: Meddelandet kommer inte att sändas med betalningen över Ass-Pennies-nätverket.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the AssPennies network.</source>
+        <translation>Ett valfritt meddelande att bifoga betalningsbegäran, vilket visas när begäran öppnas. Obs: Meddelandet kommer inte att sändas med betalningen över AssPennies-nätverket.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2236,8 +2236,8 @@ Notera: Då avgiften beräknas per byte kommer en avgift på 50 satoshi tas ut f
         <translation>Damm:</translation>
     </message>
     <message>
-        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for ass-pennies transactions than the network can process.</source>
-        <translation>När transaktionsvolymen är mindre än utrymmet i blocken kan både brytardatorer och relänoder kräva en minimiavgift. Det är okej att bara betala denna minimiavgift, men du ska vara medveten om att det kan leda till att en transaktion aldrig bekräftas så fort efterfrågan på ass-penniestransaktioner är större än vad nätverket kan hantera.</translation>
+        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for asspennies transactions than the network can process.</source>
+        <translation>När transaktionsvolymen är mindre än utrymmet i blocken kan både brytardatorer och relänoder kräva en minimiavgift. Det är okej att bara betala denna minimiavgift, men du ska vara medveten om att det kan leda till att en transaktion aldrig bekräftas så fort efterfrågan på asspenniestransaktioner är större än vad nätverket kan hantera.</translation>
     </message>
     <message>
         <source>A too low fee might result in a never confirming transaction (read the tooltip)</source>
@@ -2384,8 +2384,8 @@ Notera: Då avgiften beräknas per byte kommer en avgift på 50 satoshi tas ut f
         <translation><numerusform>Uppskattas till att påbörja bekräftelse inom %n block.</numerusform><numerusform>Uppskattas till att påbörja bekräftelse inom %n block.</numerusform></translation>
     </message>
     <message>
-        <source>Warning: Invalid Ass-Pennies address</source>
-        <translation>Varning: Ogiltig Ass-Pennies-adress</translation>
+        <source>Warning: Invalid AssPennies address</source>
+        <translation>Varning: Ogiltig AssPennies-adress</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2427,8 +2427,8 @@ Notera: Då avgiften beräknas per byte kommer en avgift på 50 satoshi tas ut f
         <translation>Detta är en normal betalning.</translation>
     </message>
     <message>
-        <source>The Ass-Pennies address to send the payment to</source>
-        <translation>Ass-Pennies-adress att sända betalning till</translation>
+        <source>The AssPennies address to send the payment to</source>
+        <translation>AssPennies-adress att sända betalning till</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2447,8 +2447,8 @@ Notera: Då avgiften beräknas per byte kommer en avgift på 50 satoshi tas ut f
         <translation>Ta bort denna post</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less ass-penniess than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>Avgiften dras från beloppet som skickas. Mottagaren kommer att ta emot mindre ass-pennies än du angivit i beloppsfältet. Om flera mottagare väljs kommer avgiften att fördelas jämt.</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less asspenniess than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>Avgiften dras från beloppet som skickas. Mottagaren kommer att ta emot mindre asspennies än du angivit i beloppsfältet. Om flera mottagare väljs kommer avgiften att fördelas jämt.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2475,8 +2475,8 @@ Notera: Då avgiften beräknas per byte kommer en avgift på 50 satoshi tas ut f
         <translation>Ange en etikett för denna adress för att lägga till den i listan med använda adresser</translation>
     </message>
     <message>
-        <source>A message that was attached to the ass-pennies: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Ass-Pennies network.</source>
-        <translation>Ett meddelande som bifogades ass-pennies: -URIn och som sparas med transaktionen som referens. Obs: Meddelandet sänds inte över Ass-Pennies-nätverket.</translation>
+        <source>A message that was attached to the asspennies: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the AssPennies network.</source>
+        <translation>Ett meddelande som bifogades asspennies: -URIn och som sparas med transaktionen som referens. Obs: Meddelandet sänds inte över AssPennies-nätverket.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2520,12 +2520,12 @@ Notera: Då avgiften beräknas per byte kommer en avgift på 50 satoshi tas ut f
         <translation>&amp;Signera meddelande</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive ass-penniess sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Du kan signera meddelanden/avtal med dina adresser för att bevisa att du kan ta emot ass-pennies som skickats till dem. Var försiktig så du inte signerar något oklart eller konstigt, eftersom phishing-angrepp kan försöka få dig att signera över din identitet till dem. Signera endast väldetaljerade meddelanden som du godkänner.</translation>
+        <source>You can sign messages/agreements with your addresses to prove you can receive asspenniess sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>Du kan signera meddelanden/avtal med dina adresser för att bevisa att du kan ta emot asspennies som skickats till dem. Var försiktig så du inte signerar något oklart eller konstigt, eftersom phishing-angrepp kan försöka få dig att signera över din identitet till dem. Signera endast väldetaljerade meddelanden som du godkänner.</translation>
     </message>
     <message>
-        <source>The Ass-Pennies address to sign the message with</source>
-        <translation>Ass-Pennies-adress att signera meddelandet med</translation>
+        <source>The AssPennies address to sign the message with</source>
+        <translation>AssPennies-adress att signera meddelandet med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2556,8 +2556,8 @@ Notera: Då avgiften beräknas per byte kommer en avgift på 50 satoshi tas ut f
         <translation>Kopiera signaturen till systemets Urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Ass-Pennies address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna Ass-Pennies-adress</translation>
+        <source>Sign the message to prove you own this AssPennies address</source>
+        <translation>Signera meddelandet för att bevisa att du äger denna AssPennies-adress</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2580,12 +2580,12 @@ Notera: Då avgiften beräknas per byte kommer en avgift på 50 satoshi tas ut f
         <translation>Ange mottagarens adress, meddelande (kopiera radbrytningar, mellanslag, TAB-tecken, osv. exakt) och signatur nedan, för att verifiera meddelandet. Undvik att läsa in mera information i signaturen än vad som stod i själva det signerade meddelandet, för att undvika ett man-in-the-middle-angrepp. Notera att detta endast bevisar att den signerande parten tar emot med adressen, det bevisar inte vem som skickat transaktionen!</translation>
     </message>
     <message>
-        <source>The Ass-Pennies address the message was signed with</source>
-        <translation>Ass-Pennies-adress som meddelandet signerades med</translation>
+        <source>The AssPennies address the message was signed with</source>
+        <translation>AssPennies-adress som meddelandet signerades med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Ass-Pennies address</source>
-        <translation>Verifiera meddelandet för att vara säker på att det signerades med angiven Ass-Pennies-adress</translation>
+        <source>Verify the message to ensure it was signed with the specified AssPennies address</source>
+        <translation>Verifiera meddelandet för att vara säker på att det signerades med angiven AssPennies-adress</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -3139,7 +3139,7 @@ Notera: Då avgiften beräknas per byte kommer en avgift på 50 satoshi tas ut f
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Skicka Ass-Penniess</translation>
+        <translation>Skicka AssPenniess</translation>
     </message>
     <message>
         <source>Fee bump error</source>
@@ -3252,8 +3252,8 @@ Notera: Då avgiften beräknas per byte kommer en avgift på 50 satoshi tas ut f
         <translation>Kunde inte starta HTTP-server. Se felsökningsloggen för detaljer.</translation>
     </message>
     <message>
-        <source>Ass-Pennies Core</source>
-        <translation>Ass-Pennies Core</translation>
+        <source>AssPennies Core</source>
+        <translation>AssPennies Core</translation>
     </message>
     <message>
         <source>The %s developers</source>
@@ -3687,7 +3687,7 @@ Notera: Då avgiften beräknas per byte kommer en avgift på 50 satoshi tas ut f
     </message>
     <message>
         <source>Insufficient funds</source>
-        <translation>Otillräckligt med ass-penniess</translation>
+        <translation>Otillräckligt med asspenniess</translation>
     </message>
     <message>
         <source>Cannot upgrade a non HD split wallet without upgrading to support pre split keypool. Please use -upgradewallet=169900 or -upgradewallet with no version specified.</source>

@@ -1,7 +1,7 @@
 Description
 ------------
 
-This directory contains data-driven tests for various aspects of Ass-Pennies.
+This directory contains data-driven tests for various aspects of AssPennies.
 
 License
 --------

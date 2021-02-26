@@ -38,17 +38,17 @@ from the root of the repository.
 
 **Note**: You only need Berkeley DB if the wallet is enabled (see [*Disable-wallet mode*](/doc/build-osx.md#disable-wallet-mode)).
 
-Build Ass-Pennies Core
+Build AssPennies Core
 ------------------------
 
-1. Clone the Ass-Pennies Core source code:
+1. Clone the AssPennies Core source code:
 
-        git clone https://github.com/ass-pennies-project/ass-pennies
-        cd ass-pennies
+        git clone https://github.com/asspennies-project/asspennies
+        cd asspennies
 
-2.  Build Ass-Pennies Core:
+2.  Build AssPennies Core:
 
-    Configure and build the headless Ass-Pennies Core binaries as well as the GUI (if Qt is found).
+    Configure and build the headless AssPennies Core binaries as well as the GUI (if Qt is found).
 
     You can disable the GUI build by passing `--without-gui` to configure.
 
@@ -70,13 +70,13 @@ Build Ass-Pennies Core
 
     or
 
-        cd ~/ass-pennies/src
-        cp ass-penniesd /usr/local/bin/
-        cp ass-pennies-cli /usr/local/bin/
+        cd ~/asspennies/src
+        cp asspenniesd /usr/local/bin/
+        cp asspennies-cli /usr/local/bin/
 
 Disable-wallet mode
 --------------------
-When the intention is to run only a P2P node without a wallet, Ass-Pennies Core may be compiled in
+When the intention is to run only a P2P node without a wallet, AssPennies Core may be compiled in
 disable-wallet mode with:
 
     ./configure --disable-wallet
@@ -88,28 +88,28 @@ Mining is also possible in disable-wallet mode using the `getblocktemplate` RPC 
 Running
 -------
 
-Ass-Pennies Core is now available at `./src/ass-penniesd`
+AssPennies Core is now available at `./src/asspenniesd`
 
 Before running, you may create an empty configuration file:
 
-    mkdir -p "/Users/${USER}/Library/Application Support/Ass-Pennies"
+    mkdir -p "/Users/${USER}/Library/Application Support/AssPennies"
 
-    touch "/Users/${USER}/Library/Application Support/Ass-Pennies/ass-pennies.conf"
+    touch "/Users/${USER}/Library/Application Support/AssPennies/asspennies.conf"
 
-    chmod 600 "/Users/${USER}/Library/Application Support/Ass-Pennies/ass-pennies.conf"
+    chmod 600 "/Users/${USER}/Library/Application Support/AssPennies/asspennies.conf"
 
-The first time you run ass-penniesd, it will start downloading the blockchain. This process could take many hours, or even days on slower than average systems.
+The first time you run asspenniesd, it will start downloading the blockchain. This process could take many hours, or even days on slower than average systems.
 
 You can monitor the download process by looking at the debug.log file:
 
-    tail -f $HOME/Library/Application\ Support/Ass-Pennies/debug.log
+    tail -f $HOME/Library/Application\ Support/AssPennies/debug.log
 
 Other commands:
 -------
 
-    ./src/ass-penniesd -daemon # Starts the ass-pennies daemon.
-    ./src/ass-pennies-cli --help # Outputs a list of command-line options.
-    ./src/ass-pennies-cli help # Outputs a list of RPC commands when the daemon is running.
+    ./src/asspenniesd -daemon # Starts the asspennies daemon.
+    ./src/asspennies-cli --help # Outputs a list of command-line options.
+    ./src/asspennies-cli help # Outputs a list of RPC commands when the daemon is running.
 
 Notes
 -----

@@ -66,12 +66,12 @@
         <translation>Adrese primalaca</translation>
     </message>
     <message>
-        <source>These are your Ass-Pennies addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Ovo su vaše Ass-Pennies adrese za slanje novca. Uvijek provjerite iznos i adresu primaoca prije slanja novca.</translation>
+        <source>These are your AssPennies addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Ovo su vaše AssPennies adrese za slanje novca. Uvijek provjerite iznos i adresu primaoca prije slanja novca.</translation>
     </message>
     <message>
-        <source>These are your Ass-Pennies addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Ovo su vaše Ass-Pennies adrese za primanje novca. Preporučljivo je da koristite novu adresu primaoca za svaku transakciju.</translation>
+        <source>These are your AssPennies addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Ovo su vaše AssPennies adrese za primanje novca. Preporučljivo je da koristite novu adresu primaoca za svaku transakciju.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -114,8 +114,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Ass-Pennies</source>
-        <translation>Ass-Pennies</translation>
+        <source>AssPennies</source>
+        <translation>AssPennies</translation>
     </message>
     </context>
 <context>
@@ -133,8 +133,8 @@
 <context>
     <name>Intro</name>
     <message>
-        <source>Ass-Pennies</source>
-        <translation>Ass-Pennies</translation>
+        <source>AssPennies</source>
+        <translation>AssPennies</translation>
     </message>
     </context>
 <context>
@@ -279,8 +279,8 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Ass-Pennies Core</source>
-        <translation>Ass-Pennies Jezrga</translation>
+        <source>AssPennies Core</source>
+        <translation>AssPennies Jezrga</translation>
     </message>
     </context>
 </TS>

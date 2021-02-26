@@ -5,42 +5,42 @@ and tests weren't explicitly disabled.
 
 After configuring, they can be run with `make check`.
 
-To run the ass-penniesd tests manually, launch `src/test/test_ass-pennies`. To recompile
+To run the asspenniesd tests manually, launch `src/test/test_asspennies`. To recompile
 after a test file was modified, run `make` and then run the test again. If you
 modify a non-test file, use `make -C src/test` to recompile only what's needed
-to run the ass-penniesd tests.
+to run the asspenniesd tests.
 
-To add more ass-penniesd tests, add `BOOST_AUTO_TEST_CASE` functions to the existing
+To add more asspenniesd tests, add `BOOST_AUTO_TEST_CASE` functions to the existing
 .cpp files in the `test/` directory or add new .cpp files that
 implement new BOOST_AUTO_TEST_SUITE sections.
 
-To run the ass-pennies-qt tests manually, launch `src/qt/test/test_ass-pennies-qt`
+To run the asspennies-qt tests manually, launch `src/qt/test/test_asspennies-qt`
 
-To add more ass-pennies-qt tests, add them to the `src/qt/test/` directory and
+To add more asspennies-qt tests, add them to the `src/qt/test/` directory and
 the `src/qt/test/test_main.cpp` file.
 
 ### Running individual tests
 
-test_ass-pennies has some built-in command-line arguments; for
+test_asspennies has some built-in command-line arguments; for
 example, to run just the getarg_tests verbosely:
 
-    test_ass-pennies --log_level=all --run_test=getarg_tests
+    test_asspennies --log_level=all --run_test=getarg_tests
 
 ... or to run just the doubledash test:
 
-    test_ass-pennies --run_test=getarg_tests/doubledash
+    test_asspennies --run_test=getarg_tests/doubledash
 
-Run `test_ass-pennies --help` for the full list.
+Run `test_asspennies --help` for the full list.
 
 ### Note on adding test cases
 
 The sources in this directory are unit test cases.  Boost includes a
-unit testing framework, and since ass-pennies already uses boost, it makes
+unit testing framework, and since asspennies already uses boost, it makes
 sense to simply use this framework rather than require developers to
 configure some other framework (we want as few impediments to creating
 unit tests as possible).
 
-The build system is setup to compile an executable called "test_ass-pennies"
+The build system is setup to compile an executable called "test_asspennies"
 that runs all of the unit tests.  The main source file is called
 test_bitcoin.cpp. To add a new unit test file to our test suite you need
 to add the file to `src/Makefile.test.include`. The pattern is to create

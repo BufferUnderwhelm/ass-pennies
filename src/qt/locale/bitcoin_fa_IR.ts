@@ -66,11 +66,11 @@
         <translation>آدرس‌های گیرنده</translation>
     </message>
     <message>
-        <source>These are your Ass-Pennies addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your AssPennies addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>اینها آدرس‌های شما برای ارسال وجوه هستند. همیشه قبل از ارسال، مقدار و آدرس گیرنده را بررسی کنید.</translation>
     </message>
     <message>
-        <source>These are your Ass-Pennies addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your AssPennies addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>اینها آدرس‌های بیتکوین شما برای دریافت وجوه هستند. توصیه می‌شود برای هر دریافت از یک آدرس جدید استفاده کنید.</translation>
     </message>
     <message>
@@ -177,7 +177,7 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
-        <translation>اخطار: اگر کیف‌پول خود را رمزگذاری کرده و رمز خود را فراموش کنید، شما &lt;b&gt;تمام Ass-Pennies‌های خود را از دست خواهید داد&lt;/b&gt;!</translation>
+        <translation>اخطار: اگر کیف‌پول خود را رمزگذاری کرده و رمز خود را فراموش کنید، شما &lt;b&gt;تمام AssPennies‌های خود را از دست خواهید داد&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -334,8 +334,8 @@
         <translation>فهرست‌بندی نمایه بلاک‌ها…</translation>
     </message>
     <message>
-        <source>Send coins to a Ass-Pennies address</source>
-        <translation>ارسال کوین به آدرس ass-pennies</translation>
+        <source>Send coins to a AssPennies address</source>
+        <translation>ارسال کوین به آدرس asspennies</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -358,8 +358,8 @@
         <translation>تایید پیام</translation>
     </message>
     <message>
-        <source>Ass-Pennies</source>
-        <translation>ass-pennies</translation>
+        <source>AssPennies</source>
+        <translation>asspennies</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -382,12 +382,12 @@
         <translation>رمزنگاری کلیدهای شخصی متعلق به کیف‌پول</translation>
     </message>
     <message>
-        <source>Sign messages with your Ass-Pennies addresses to prove you own them</source>
-        <translation>پیام‌ها را با آدرس Ass-Pennies خود امضا کنید تا مالکیت آن‌ها را اثبات کنید</translation>
+        <source>Sign messages with your AssPennies addresses to prove you own them</source>
+        <translation>پیام‌ها را با آدرس AssPennies خود امضا کنید تا مالکیت آن‌ها را اثبات کنید</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Ass-Pennies addresses</source>
-        <translation>پیام‌ها را تائید کنید تا از امضاشدن آن‌ها با آدرس Ass-Pennies مطمئن شوید</translation>
+        <source>Verify messages to ensure they were signed with specified AssPennies addresses</source>
+        <translation>پیام‌ها را تائید کنید تا از امضاشدن آن‌ها با آدرس AssPennies مطمئن شوید</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -406,8 +406,8 @@
         <translation>نوار ابزار</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and ass-pennies: URIs)</source>
-        <translation>درخواست پرداخت (ساخت کد QR و Ass-Pennies: URIs)</translation>
+        <source>Request payments (generates QR codes and asspennies: URIs)</source>
+        <translation>درخواست پرداخت (ساخت کد QR و AssPennies: URIs)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -418,16 +418,16 @@
         <translation>نمایش لیست آدرس‌ها و لیبل‌های دریافتی استفاده شده</translation>
     </message>
     <message>
-        <source>Open a ass-pennies: URI or payment request</source>
-        <translation>بازکردن Ass-Pennies: آدرس یا درخواست پرداخت</translation>
+        <source>Open a asspennies: URI or payment request</source>
+        <translation>بازکردن AssPennies: آدرس یا درخواست پرداخت</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>گزینه های خط فرمان</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Ass-Pennies network</source>
-        <translation><numerusform>%n ارتباط فعال به شبکه Ass-Pennies</numerusform><numerusform>%n ارتباط فعال به شبکه Ass-Pennies</numerusform></translation>
+        <source>%n active connection(s) to AssPennies network</source>
+        <translation><numerusform>%n ارتباط فعال به شبکه AssPennies</numerusform><numerusform>%n ارتباط فعال به شبکه AssPennies</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -538,7 +538,7 @@
         <translation>wallet رمزگذاری شد و در حال حاضر قفل است</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Ass-Pennies can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. AssPennies can no longer continue safely and will quit.</source>
         <translation>خطای بحرانی رخ داده است. بیتکوین دیگر به صورت ایمن قادر به ادامه دادن نمی‌باشد و خارج خواهد شد.</translation>
     </message>
 </context>
@@ -696,8 +696,8 @@
         <translation>ویرایش آدرس ارسالی</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Ass-Pennies address.</source>
-        <translation>آدرس وارد شده "%1" آدرس معتبر ass-pennies نیست.</translation>
+        <source>The entered address "%1" is not a valid AssPennies address.</source>
+        <translation>آدرس وارد شده "%1" آدرس معتبر asspennies نیست.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -753,8 +753,8 @@
         <translation>استفاده کردن از پوشه داده مخصوص:</translation>
     </message>
     <message>
-        <source>Ass-Pennies</source>
-        <translation>ass-pennies</translation>
+        <source>AssPennies</source>
+        <translation>asspennies</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -907,8 +907,8 @@
         <translation>شبکه Tor</translation>
     </message>
     <message>
-        <source>Connect to the Ass-Pennies network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>اتصال به شبکه ass-pennies با استفاده از پراکسی SOCKS5 برای استفاده از سرویس مخفی تور</translation>
+        <source>Connect to the AssPennies network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>اتصال به شبکه asspennies با استفاده از پراکسی SOCKS5 برای استفاده از سرویس مخفی تور</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -990,8 +990,8 @@
         <translation>فرم</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Ass-Pennies network after a connection is established, but this process has not completed yet.</source>
-        <translation>اطلاعات نمایش داده شده ممکن است روزآمد نباشد. wallet شما به صورت خودکار بعد از برقراری اتصال با شبکه ass-pennies به روز می شود اما این فرایند هنوز تکمیل نشده است.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the AssPennies network after a connection is established, but this process has not completed yet.</source>
+        <translation>اطلاعات نمایش داده شده ممکن است روزآمد نباشد. wallet شما به صورت خودکار بعد از برقراری اتصال با شبکه asspennies به روز می شود اما این فرایند هنوز تکمیل نشده است.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1712,8 +1712,8 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>درخواست پرداخت منقضی شد یا تاریخ آن گذشت.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Ass-Pennies address</source>
-        <translation>هشدار: آدرس ass-pennies نامعتبر</translation>
+        <source>Warning: Invalid AssPennies address</source>
+        <translation>هشدار: آدرس asspennies نامعتبر</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -1755,8 +1755,8 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>این پرداحت,عادی هست.</translation>
     </message>
     <message>
-        <source>The Ass-Pennies address to send the payment to</source>
-        <translation>آدرس ass-pennies برای ارسال پرداحت به آن</translation>
+        <source>The AssPennies address to send the payment to</source>
+        <translation>آدرس asspennies برای ارسال پرداحت به آن</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1844,8 +1844,8 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>امضا</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Ass-Pennies address</source>
-        <translation>پیام را امضا کنید تا ثابت کنید این آدرس Ass-Pennies متعلق به شماست</translation>
+        <source>Sign the message to prove you own this AssPennies address</source>
+        <translation>پیام را امضا کنید تا ثابت کنید این آدرس AssPennies متعلق به شماست</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1860,8 +1860,8 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>تایید پیام</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Ass-Pennies address</source>
-        <translation>پیام را تایید کنید تا مطمئن شوید که توسط آدرس Ass-Pennies مشخص شده امضا شده است.</translation>
+        <source>Verify the message to ensure it was signed with the specified AssPennies address</source>
+        <translation>پیام را تایید کنید تا مطمئن شوید که توسط آدرس AssPennies مشخص شده امضا شده است.</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2305,8 +2305,8 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Ass-Pennies Core</source>
-        <translation>هسته ass-pennies</translation>
+        <source>AssPennies Core</source>
+        <translation>هسته asspennies</translation>
     </message>
     <message>
         <source>Change index out of range</source>
@@ -2398,7 +2398,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
     </message>
     <message>
         <source>Transaction too large for fee policy</source>
-        <translation>حجم تراکنش خیلی زیاد است به خاطر سیاست های کارمزدی ass-pennies</translation>
+        <translation>حجم تراکنش خیلی زیاد است به خاطر سیاست های کارمزدی asspennies</translation>
     </message>
     <message>
         <source>Transaction too large</source>

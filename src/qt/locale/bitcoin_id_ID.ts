@@ -66,12 +66,12 @@
         <translation>Alamat-alamat penerima</translation>
     </message>
     <message>
-        <source>These are your Ass-Pennies addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Berikut ialah alamat-alamat Ass-Pennies Anda yang digunakan untuk mengirimkan pembayaran. Selalu periksa jumlah dan alamat penerima sebelum mengirimkan koin.</translation>
+        <source>These are your AssPennies addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Berikut ialah alamat-alamat AssPennies Anda yang digunakan untuk mengirimkan pembayaran. Selalu periksa jumlah dan alamat penerima sebelum mengirimkan koin.</translation>
     </message>
     <message>
-        <source>These are your Ass-Pennies addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Berikut ialah alamat-alamat Ass-Pennies Anda yang digunakan untuk menerima pembayaran. Dianjurkan untuk menggunakan alamat penerimaan baru untuk setiap transaksi.</translation>
+        <source>These are your AssPennies addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Berikut ialah alamat-alamat AssPennies Anda yang digunakan untuk menerima pembayaran. Dianjurkan untuk menggunakan alamat penerimaan baru untuk setiap transaksi.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -188,7 +188,7 @@
         <translation>Dompet terenkripsi</translation>
     </message>
     <message>
-        <source>Your wallet is now encrypted. Remember that encrypting your wallet cannot fully protect your ass-penniess from being stolen by malware infecting your computer.</source>
+        <source>Your wallet is now encrypted. Remember that encrypting your wallet cannot fully protect your asspenniess from being stolen by malware infecting your computer.</source>
         <translation>Wallet anda sekarang telah terenkripsi. Ingat bahwa enkripsi wallet anda tersebut tidak dapat sepenuhnya melindungi dari pencurian atau malware yang menyerang komputer anda. </translation>
     </message>
     <message>
@@ -342,8 +342,8 @@
         <translation>Proxy di &lt;b&gt;aktifkan&lt;/b&gt;: %1</translation>
     </message>
     <message>
-        <source>Send coins to a Ass-Pennies address</source>
-        <translation>Kirim koin ke alamat Ass-Pennies</translation>
+        <source>Send coins to a AssPennies address</source>
+        <translation>Kirim koin ke alamat AssPennies</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -366,8 +366,8 @@
         <translation>&amp;Verifikasi pesan...</translation>
     </message>
     <message>
-        <source>Ass-Pennies</source>
-        <translation>Ass-Pennies</translation>
+        <source>AssPennies</source>
+        <translation>AssPennies</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -390,12 +390,12 @@
         <translation>Enkripsi private key yang dimiliki dompet Anda</translation>
     </message>
     <message>
-        <source>Sign messages with your Ass-Pennies addresses to prove you own them</source>
-        <translation>Tanda tangani sebuah pesan menggunakan alamat Ass-Pennies Anda untuk membuktikan bahwa Anda adalah pemilik alamat tersebut</translation>
+        <source>Sign messages with your AssPennies addresses to prove you own them</source>
+        <translation>Tanda tangani sebuah pesan menggunakan alamat AssPennies Anda untuk membuktikan bahwa Anda adalah pemilik alamat tersebut</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Ass-Pennies addresses</source>
-        <translation>Verifikasi pesan untuk memastikan bahwa pesan tersebut ditanda tangani oleh suatu alamat Ass-Pennies tertentu</translation>
+        <source>Verify messages to ensure they were signed with specified AssPennies addresses</source>
+        <translation>Verifikasi pesan untuk memastikan bahwa pesan tersebut ditanda tangani oleh suatu alamat AssPennies tertentu</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -414,8 +414,8 @@
         <translation>Baris tab</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and ass-pennies: URIs)</source>
-        <translation>Permintaan pembayaran (membuat kode QR dan ass-pennies: URIs)</translation>
+        <source>Request payments (generates QR codes and asspennies: URIs)</source>
+        <translation>Permintaan pembayaran (membuat kode QR dan asspennies: URIs)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -426,16 +426,16 @@
         <translation>Tampilkan daftar alamat dan label yang diterima</translation>
     </message>
     <message>
-        <source>Open a ass-pennies: URI or payment request</source>
-        <translation>Buka URI ass-pennies: atau permintaan pembayaran</translation>
+        <source>Open a asspennies: URI or payment request</source>
+        <translation>Buka URI asspennies: atau permintaan pembayaran</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;pilihan Command-line</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Ass-Pennies network</source>
-        <translation><numerusform>%n koneksi aktif ke jaringan Ass-Pennies</numerusform></translation>
+        <source>%n active connection(s) to AssPennies network</source>
+        <translation><numerusform>%n koneksi aktif ke jaringan AssPennies</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -486,8 +486,8 @@
         <translation>&amp;Address penerima</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Ass-Pennies command-line options</source>
-        <translation>Tampilkan %1 pesan bantuan untuk mendapatkan daftar opsi baris perintah Ass-Pennies yang memungkinkan</translation>
+        <source>Show the %1 help message to get a list with possible AssPennies command-line options</source>
+        <translation>Tampilkan %1 pesan bantuan untuk mendapatkan daftar opsi baris perintah AssPennies yang memungkinkan</translation>
     </message>
     <message>
         <source>default wallet</source>
@@ -590,8 +590,8 @@
         <translation>Dompet saat ini &lt;b&gt;terenkripsi&lt;/b&gt; dan &lt;b&gt;terkunci&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Ass-Pennies can no longer continue safely and will quit.</source>
-        <translation>Terjadi Kesalahan Fatal. Ass-Pennies Tidak Dapat Melanjutkan Dengan Aman Dan Akan Keluar</translation>
+        <source>A fatal error occurred. AssPennies can no longer continue safely and will quit.</source>
+        <translation>Terjadi Kesalahan Fatal. AssPennies Tidak Dapat Melanjutkan Dengan Aman Dan Akan Keluar</translation>
     </message>
 </context>
 <context>
@@ -776,8 +776,8 @@
         <translation>Ubah alamat pengirim</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Ass-Pennies address.</source>
-        <translation>Alamat yang dimasukkan "%1" bukanlah alamat Ass-Pennies yang valid.</translation>
+        <source>The entered address "%1" is not a valid AssPennies address.</source>
+        <translation>Alamat yang dimasukkan "%1" bukanlah alamat AssPennies yang valid.</translation>
     </message>
     <message>
         <source>Address "%1" already exists as a receiving address with label "%2" and so cannot be added as a sending address.</source>
@@ -873,8 +873,8 @@
         <translation>Gunakan direktori pilihan Anda:</translation>
     </message>
     <message>
-        <source>Ass-Pennies</source>
-        <translation>Ass-Pennies</translation>
+        <source>AssPennies</source>
+        <translation>AssPennies</translation>
     </message>
     <message>
         <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
@@ -885,8 +885,8 @@
         <translation>%1 GB data akan disimpan di direktori ini.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Ass-Pennies block chain.</source>
-        <translation>%1 akan mengunduh dan menyimpan salinan Ass-Pennies block chain.</translation>
+        <source>%1 will download and store a copy of the AssPennies block chain.</source>
+        <translation>%1 akan mengunduh dan menyimpan salinan AssPennies block chain.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -916,12 +916,12 @@
         <translation>Formulir</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the ass-pennies network, as detailed below.</source>
-        <translation>Transaksi-transaksi terkini mungkin belum terlihat dan oleh karenanya, saldo dompet Anda mungkin tidak tepat. Informasi ini akan akurat ketika dompet Anda tersinkronisasi dengan jaringan Ass-Pennies, seperti rincian berikut.</translation>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the asspennies network, as detailed below.</source>
+        <translation>Transaksi-transaksi terkini mungkin belum terlihat dan oleh karenanya, saldo dompet Anda mungkin tidak tepat. Informasi ini akan akurat ketika dompet Anda tersinkronisasi dengan jaringan AssPennies, seperti rincian berikut.</translation>
     </message>
     <message>
-        <source>Attempting to spend ass-penniess that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>Usaha untuk menggunakan ass-pennies yang dipengaruhi oleh transaksi yang belum terlihat tidak akan diterima oleh jaringan.</translation>
+        <source>Attempting to spend asspenniess that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <translation>Usaha untuk menggunakan asspennies yang dipengaruhi oleh transaksi yang belum terlihat tidak akan diterima oleh jaringan.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1098,8 +1098,8 @@
         <translation>&amp;Perubahan saldo untuk transaksi yang belum dikonfirmasi</translation>
     </message>
     <message>
-        <source>Automatically open the Ass-Pennies client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Otomatis membuka port client Ass-Pennies di router. Hanya berjalan apabila router anda mendukung UPnP dan di-enable.</translation>
+        <source>Automatically open the AssPennies client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Otomatis membuka port client AssPennies di router. Hanya berjalan apabila router anda mendukung UPnP dan di-enable.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1114,8 +1114,8 @@
         <translation>Terima koneksi-koneksi masuk</translation>
     </message>
     <message>
-        <source>Connect to the Ass-Pennies network through a SOCKS5 proxy.</source>
-        <translation>Hubungkan ke jaringan Ass-Pennies melalui SOCKS5 proxy.</translation>
+        <source>Connect to the AssPennies network through a SOCKS5 proxy.</source>
+        <translation>Hubungkan ke jaringan AssPennies melalui SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1150,8 +1150,8 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Ass-Pennies network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Koneksi ke jaringan ass-pennies melalui proxy SOCKS5 yang berbeda untuk layanan Tor tersembunyi.</translation>
+        <source>Connect to the AssPennies network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Koneksi ke jaringan asspennies melalui proxy SOCKS5 yang berbeda untuk layanan Tor tersembunyi.</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1257,8 +1257,8 @@
         <translation>Formulir</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Ass-Pennies network after a connection is established, but this process has not completed yet.</source>
-        <translation>Informasi terlampir mungkin sudah kedaluwarsa. Dompet Anda secara otomatis mensinkronisasi dengan jaringan Ass-Pennies ketika sebuah hubungan terbentuk, namun proses ini belum selesai.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the AssPennies network after a connection is established, but this process has not completed yet.</source>
+        <translation>Informasi terlampir mungkin sudah kedaluwarsa. Dompet Anda secara otomatis mensinkronisasi dengan jaringan AssPennies ketika sebuah hubungan terbentuk, namun proses ini belum selesai.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1332,24 +1332,24 @@
         <translation>Terjadi kesalahan pada permintaan pembayaran</translation>
     </message>
     <message>
-        <source>Cannot start ass-pennies: click-to-pay handler</source>
-        <translation>Tidak bisa memulai ass-pennies: handler click-to-pay</translation>
+        <source>Cannot start asspennies: click-to-pay handler</source>
+        <translation>Tidak bisa memulai asspennies: handler click-to-pay</translation>
     </message>
     <message>
         <source>URI handling</source>
         <translation>Pengelolaan URI</translation>
     </message>
     <message>
-        <source>'ass-pennies://' is not a valid URI. Use 'ass-pennies:' instead.</source>
-        <translation>'ass-pennies://' bukanlah alamat URI yang valid. Silakan gunakan 'ass-pennies:'.</translation>
+        <source>'asspennies://' is not a valid URI. Use 'asspennies:' instead.</source>
+        <translation>'asspennies://' bukanlah alamat URI yang valid. Silakan gunakan 'asspennies:'.</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
         <translation>URL permintaan pembayaran tidak valid: %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Ass-Pennies address or malformed URI parameters.</source>
-        <translation>URI tidak bisa dimengerti! Hal ini bisa disebabkan karena alamat Ass-Pennies yang tidak sah atau parameter URI yang tidak tepat.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid AssPennies address or malformed URI parameters.</source>
+        <translation>URI tidak bisa dimengerti! Hal ini bisa disebabkan karena alamat AssPennies yang tidak sah atau parameter URI yang tidak tepat.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1402,8 +1402,8 @@
         <translation>Nilai</translation>
     </message>
     <message>
-        <source>Enter a Ass-Pennies address (e.g. %1)</source>
-        <translation>Masukkan alamat Ass-Pennies (contoh %1)</translation>
+        <source>Enter a AssPennies address (e.g. %1)</source>
+        <translation>Masukkan alamat AssPennies (contoh %1)</translation>
     </message>
     <message>
         <source>%1 h</source>
@@ -1937,8 +1937,8 @@
         <translation>Salin tanda tangan terpilih ke sistem klipboard</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Ass-Pennies address</source>
-        <translation>Tandai pesan untuk menyetujui kamu pemiliki alamat Ass-Pennies ini</translation>
+        <source>Sign the message to prove you own this AssPennies address</source>
+        <translation>Tandai pesan untuk menyetujui kamu pemiliki alamat AssPennies ini</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2061,8 +2061,8 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Ass-Pennies Core</source>
-        <translation>Ass-Pennies Core</translation>
+        <source>AssPennies Core</source>
+        <translation>AssPennies Core</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>

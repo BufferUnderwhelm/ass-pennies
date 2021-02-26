@@ -106,7 +106,7 @@ void setupAddressWidget(QValidatedLineEdit *widget, QWidget *parent)
     widget->setFont(fixedPitchFont());
     // We don't want translators to use own addresses in translations
     // and this is the only place, where this address is supplied.
-    widget->setPlaceholderText(QObject::tr("Enter a Ass-Pennies address (e.g. %1)").arg(
+    widget->setPlaceholderText(QObject::tr("Enter a AssPennies address (e.g. %1)").arg(
         QString::fromStdString(DummyAddress(Params()))));
     widget->setValidator(new BitcoinAddressEntryValidator(parent));
     widget->setCheckValidator(new BitcoinAddressCheckValidator(parent));
@@ -115,7 +115,7 @@ void setupAddressWidget(QValidatedLineEdit *widget, QWidget *parent)
 bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out)
 {
     // return if URI is not valid or is no bitcoin: URI
-    if(!uri.isValid() || uri.scheme() != QString("ass-pennies"))
+    if(!uri.isValid() || uri.scheme() != QString("asspennies"))
         return false;
 
     SendCoinsRecipient rv;
@@ -177,7 +177,7 @@ bool parseBitcoinURI(QString uri, SendCoinsRecipient *out)
 
 QString formatBitcoinURI(const SendCoinsRecipient &info)
 {
-    QString ret = QString("ass-pennies:%1").arg(info.address);
+    QString ret = QString("asspennies:%1").arg(info.address);
     int paramCount = 0;
 
     if (info.amount)
@@ -546,10 +546,10 @@ fs::path static StartupShortcutPath()
 {
     std::string chain = gArgs.GetChainName();
     if (chain == CBaseChainParams::MAIN)
-        return GetSpecialFolderPath(CSIDL_STARTUP) / "Ass-Pennies.lnk";
+        return GetSpecialFolderPath(CSIDL_STARTUP) / "AssPennies.lnk";
     if (chain == CBaseChainParams::TESTNET) // Remove this special case when CBaseChainParams::TESTNET = "testnet4"
-        return GetSpecialFolderPath(CSIDL_STARTUP) / "Ass-Pennies (testnet).lnk";
-    return GetSpecialFolderPath(CSIDL_STARTUP) / strprintf("Ass-Pennies (%s).lnk", chain);
+        return GetSpecialFolderPath(CSIDL_STARTUP) / "AssPennies (testnet).lnk";
+    return GetSpecialFolderPath(CSIDL_STARTUP) / strprintf("AssPennies (%s).lnk", chain);
 }
 
 bool GetStartOnSystemStartup()
@@ -629,8 +629,8 @@ fs::path static GetAutostartFilePath()
 {
     std::string chain = gArgs.GetChainName();
     if (chain == CBaseChainParams::MAIN)
-        return GetAutostartDir() / "ass-pennies.desktop";
-    return GetAutostartDir() / strprintf("ass-pennies-%s.lnk", chain);
+        return GetAutostartDir() / "asspennies.desktop";
+    return GetAutostartDir() / strprintf("asspennies-%s.lnk", chain);
 }
 
 bool GetStartOnSystemStartup()
@@ -674,9 +674,9 @@ bool SetStartOnSystemStartup(bool fAutoStart)
         optionFile << "[Desktop Entry]\n";
         optionFile << "Type=Application\n";
         if (chain == CBaseChainParams::MAIN)
-            optionFile << "Name=Ass-Pennies\n";
+            optionFile << "Name=AssPennies\n";
         else
-            optionFile << strprintf("Name=Ass-Pennies (%s)\n", chain);
+            optionFile << strprintf("Name=AssPennies (%s)\n", chain);
         optionFile << "Exec=" << pszExePath << strprintf(" -min -testnet=%d -regtest=%d\n", gArgs.GetBoolArg("-testnet", false), gArgs.GetBoolArg("-regtest", false));
         optionFile << "Terminal=false\n";
         optionFile << "Hidden=false\n";

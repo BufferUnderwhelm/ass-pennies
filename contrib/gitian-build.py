@@ -23,13 +23,13 @@ def setup():
         programs += ['lxc', 'debootstrap']
     subprocess.check_call(['sudo', 'apt-get', 'install', '-qq'] + programs)
     if not os.path.isdir('gitian.sigs.ltc'):
-        subprocess.check_call(['git', 'clone', 'https://github.com/ass-pennies-project/gitian.sigs.ltc.git'])
-    if not os.path.isdir('ass-pennies-detached-sigs'):
-        subprocess.check_call(['git', 'clone', 'https://github.com/ass-pennies-project/ass-pennies-detached-sigs.git'])
+        subprocess.check_call(['git', 'clone', 'https://github.com/asspennies-project/gitian.sigs.ltc.git'])
+    if not os.path.isdir('asspennies-detached-sigs'):
+        subprocess.check_call(['git', 'clone', 'https://github.com/asspennies-project/asspennies-detached-sigs.git'])
     if not os.path.isdir('gitian-builder'):
         subprocess.check_call(['git', 'clone', 'https://github.com/devrandom/gitian-builder.git'])
-    if not os.path.isdir('ass-pennies'):
-        subprocess.check_call(['git', 'clone', 'https://github.com/ass-pennies-project/ass-pennies.git'])
+    if not os.path.isdir('asspennies'):
+        subprocess.check_call(['git', 'clone', 'https://github.com/asspennies-project/asspennies.git'])
     os.chdir('gitian-builder')
     make_image_prog = ['bin/make-base-vm', '--suite', 'bionic', '--arch', 'amd64']
     if args.docker:
@@ -46,7 +46,7 @@ def setup():
 def build():
     global args, workdir
 
-    os.makedirs('ass-pennies-binaries/' + args.version, exist_ok=True)
+    os.makedirs('asspennies-binaries/' + args.version, exist_ok=True)
     print('\nBuilding Dependencies\n')
     os.chdir('gitian-builder')
     os.makedirs('inputs', exist_ok=True)
@@ -55,27 +55,27 @@ def build():
     subprocess.check_call(['wget', '-N', '-P', 'inputs', 'https://bitcoincore.org/cfields/osslsigncode-Backports-to-1.7.1.patch'])
     subprocess.check_call(["echo 'a8c4e9cafba922f89de0df1f2152e7be286aba73f78505169bc351a7938dd911 inputs/osslsigncode-Backports-to-1.7.1.patch' | sha256sum -c"], shell=True)
     subprocess.check_call(["echo 'f9a8cdb38b9c309326764ebc937cba1523a3a751a7ab05df3ecc99d18ae466c9 inputs/osslsigncode-1.7.1.tar.gz' | sha256sum -c"], shell=True)
-    subprocess.check_call(['make', '-C', '../ass-pennies/depends', 'download', 'SOURCES_PATH=' + os.getcwd() + '/cache/common'])
+    subprocess.check_call(['make', '-C', '../asspennies/depends', 'download', 'SOURCES_PATH=' + os.getcwd() + '/cache/common'])
 
     if args.linux:
         print('\nCompiling ' + args.version + ' Linux')
-        subprocess.check_call(['bin/gbuild', '-j', args.jobs, '-m', args.memory, '--commit', 'ass-pennies='+args.commit, '--url', 'ass-pennies='+args.url, '../ass-pennies/contrib/gitian-descriptors/gitian-linux.yml'])
-        subprocess.check_call(['bin/gsign', '-p', args.sign_prog, '--signer', args.signer, '--release', args.version+'-linux', '--destination', '../gitian.sigs.ltc/', '../ass-pennies/contrib/gitian-descriptors/gitian-linux.yml'])
-        subprocess.check_call('mv build/out/ass-pennies-*.tar.gz build/out/src/ass-pennies-*.tar.gz ../ass-pennies-binaries/'+args.version, shell=True)
+        subprocess.check_call(['bin/gbuild', '-j', args.jobs, '-m', args.memory, '--commit', 'asspennies='+args.commit, '--url', 'asspennies='+args.url, '../asspennies/contrib/gitian-descriptors/gitian-linux.yml'])
+        subprocess.check_call(['bin/gsign', '-p', args.sign_prog, '--signer', args.signer, '--release', args.version+'-linux', '--destination', '../gitian.sigs.ltc/', '../asspennies/contrib/gitian-descriptors/gitian-linux.yml'])
+        subprocess.check_call('mv build/out/asspennies-*.tar.gz build/out/src/asspennies-*.tar.gz ../asspennies-binaries/'+args.version, shell=True)
 
     if args.windows:
         print('\nCompiling ' + args.version + ' Windows')
-        subprocess.check_call(['bin/gbuild', '-j', args.jobs, '-m', args.memory, '--commit', 'ass-pennies='+args.commit, '--url', 'ass-pennies='+args.url, '../ass-pennies/contrib/gitian-descriptors/gitian-win.yml'])
-        subprocess.check_call(['bin/gsign', '-p', args.sign_prog, '--signer', args.signer, '--release', args.version+'-win-unsigned', '--destination', '../gitian.sigs.ltc/', '../ass-pennies/contrib/gitian-descriptors/gitian-win.yml'])
-        subprocess.check_call('mv build/out/ass-pennies-*-win-unsigned.tar.gz inputs/', shell=True)
-        subprocess.check_call('mv build/out/ass-pennies-*.zip build/out/ass-pennies-*.exe ../ass-pennies-binaries/'+args.version, shell=True)
+        subprocess.check_call(['bin/gbuild', '-j', args.jobs, '-m', args.memory, '--commit', 'asspennies='+args.commit, '--url', 'asspennies='+args.url, '../asspennies/contrib/gitian-descriptors/gitian-win.yml'])
+        subprocess.check_call(['bin/gsign', '-p', args.sign_prog, '--signer', args.signer, '--release', args.version+'-win-unsigned', '--destination', '../gitian.sigs.ltc/', '../asspennies/contrib/gitian-descriptors/gitian-win.yml'])
+        subprocess.check_call('mv build/out/asspennies-*-win-unsigned.tar.gz inputs/', shell=True)
+        subprocess.check_call('mv build/out/asspennies-*.zip build/out/asspennies-*.exe ../asspennies-binaries/'+args.version, shell=True)
 
     if args.macos:
         print('\nCompiling ' + args.version + ' MacOS')
-        subprocess.check_call(['bin/gbuild', '-j', args.jobs, '-m', args.memory, '--commit', 'ass-pennies='+args.commit, '--url', 'ass-pennies='+args.url, '../ass-pennies/contrib/gitian-descriptors/gitian-osx.yml'])
-        subprocess.check_call(['bin/gsign', '-p', args.sign_prog, '--signer', args.signer, '--release', args.version+'-osx-unsigned', '--destination', '../gitian.sigs.ltc/', '../ass-pennies/contrib/gitian-descriptors/gitian-osx.yml'])
-        subprocess.check_call('mv build/out/ass-pennies-*-osx-unsigned.tar.gz inputs/', shell=True)
-        subprocess.check_call('mv build/out/ass-pennies-*.tar.gz build/out/ass-pennies-*.dmg ../ass-pennies-binaries/'+args.version, shell=True)
+        subprocess.check_call(['bin/gbuild', '-j', args.jobs, '-m', args.memory, '--commit', 'asspennies='+args.commit, '--url', 'asspennies='+args.url, '../asspennies/contrib/gitian-descriptors/gitian-osx.yml'])
+        subprocess.check_call(['bin/gsign', '-p', args.sign_prog, '--signer', args.signer, '--release', args.version+'-osx-unsigned', '--destination', '../gitian.sigs.ltc/', '../asspennies/contrib/gitian-descriptors/gitian-osx.yml'])
+        subprocess.check_call('mv build/out/asspennies-*-osx-unsigned.tar.gz inputs/', shell=True)
+        subprocess.check_call('mv build/out/asspennies-*.tar.gz build/out/asspennies-*.dmg ../asspennies-binaries/'+args.version, shell=True)
 
     os.chdir(workdir)
 
@@ -94,18 +94,18 @@ def sign():
 
     if args.windows:
         print('\nSigning ' + args.version + ' Windows')
-        subprocess.check_call('cp inputs/ass-pennies-' + args.version + '-win-unsigned.tar.gz inputs/ass-pennies-win-unsigned.tar.gz', shell=True)
-        subprocess.check_call(['bin/gbuild', '-i', '--commit', 'signature='+args.commit, '../ass-pennies/contrib/gitian-descriptors/gitian-win-signer.yml'])
-        subprocess.check_call(['bin/gsign', '-p', args.sign_prog, '--signer', args.signer, '--release', args.version+'-win-signed', '--destination', '../gitian.sigs.ltc/', '../ass-pennies/contrib/gitian-descriptors/gitian-win-signer.yml'])
-        subprocess.check_call('mv build/out/ass-pennies-*win64-setup.exe ../ass-pennies-binaries/'+args.version, shell=True)
-        subprocess.check_call('mv build/out/ass-pennies-*win32-setup.exe ../ass-pennies-binaries/'+args.version, shell=True)
+        subprocess.check_call('cp inputs/asspennies-' + args.version + '-win-unsigned.tar.gz inputs/asspennies-win-unsigned.tar.gz', shell=True)
+        subprocess.check_call(['bin/gbuild', '-i', '--commit', 'signature='+args.commit, '../asspennies/contrib/gitian-descriptors/gitian-win-signer.yml'])
+        subprocess.check_call(['bin/gsign', '-p', args.sign_prog, '--signer', args.signer, '--release', args.version+'-win-signed', '--destination', '../gitian.sigs.ltc/', '../asspennies/contrib/gitian-descriptors/gitian-win-signer.yml'])
+        subprocess.check_call('mv build/out/asspennies-*win64-setup.exe ../asspennies-binaries/'+args.version, shell=True)
+        subprocess.check_call('mv build/out/asspennies-*win32-setup.exe ../asspennies-binaries/'+args.version, shell=True)
 
     if args.macos:
         print('\nSigning ' + args.version + ' MacOS')
-        subprocess.check_call('cp inputs/ass-pennies-' + args.version + '-osx-unsigned.tar.gz inputs/ass-pennies-osx-unsigned.tar.gz', shell=True)
-        subprocess.check_call(['bin/gbuild', '-i', '--commit', 'signature='+args.commit, '../ass-pennies/contrib/gitian-descriptors/gitian-osx-signer.yml'])
-        subprocess.check_call(['bin/gsign', '-p', args.sign_prog, '--signer', args.signer, '--release', args.version+'-osx-signed', '--destination', '../gitian.sigs.ltc/', '../ass-pennies/contrib/gitian-descriptors/gitian-osx-signer.yml'])
-        subprocess.check_call('mv build/out/ass-pennies-osx-signed.dmg ../ass-pennies-binaries/'+args.version+'/ass-pennies-'+args.version+'-osx.dmg', shell=True)
+        subprocess.check_call('cp inputs/asspennies-' + args.version + '-osx-unsigned.tar.gz inputs/asspennies-osx-unsigned.tar.gz', shell=True)
+        subprocess.check_call(['bin/gbuild', '-i', '--commit', 'signature='+args.commit, '../asspennies/contrib/gitian-descriptors/gitian-osx-signer.yml'])
+        subprocess.check_call(['bin/gsign', '-p', args.sign_prog, '--signer', args.signer, '--release', args.version+'-osx-signed', '--destination', '../gitian.sigs.ltc/', '../asspennies/contrib/gitian-descriptors/gitian-osx-signer.yml'])
+        subprocess.check_call('mv build/out/asspennies-osx-signed.dmg ../asspennies-binaries/'+args.version+'/asspennies-'+args.version+'-osx.dmg', shell=True)
 
     os.chdir(workdir)
 
@@ -122,15 +122,15 @@ def verify():
     os.chdir('gitian-builder')
 
     print('\nVerifying v'+args.version+' Linux\n')
-    subprocess.check_call(['bin/gverify', '-v', '-d', '../gitian.sigs.ltc/', '-r', args.version+'-linux', '../ass-pennies/contrib/gitian-descriptors/gitian-linux.yml'])
+    subprocess.check_call(['bin/gverify', '-v', '-d', '../gitian.sigs.ltc/', '-r', args.version+'-linux', '../asspennies/contrib/gitian-descriptors/gitian-linux.yml'])
     print('\nVerifying v'+args.version+' Windows\n')
-    subprocess.check_call(['bin/gverify', '-v', '-d', '../gitian.sigs.ltc/', '-r', args.version+'-win-unsigned', '../ass-pennies/contrib/gitian-descriptors/gitian-win.yml'])
+    subprocess.check_call(['bin/gverify', '-v', '-d', '../gitian.sigs.ltc/', '-r', args.version+'-win-unsigned', '../asspennies/contrib/gitian-descriptors/gitian-win.yml'])
     print('\nVerifying v'+args.version+' MacOS\n')
-    subprocess.check_call(['bin/gverify', '-v', '-d', '../gitian.sigs.ltc/', '-r', args.version+'-osx-unsigned', '../ass-pennies/contrib/gitian-descriptors/gitian-osx.yml'])
+    subprocess.check_call(['bin/gverify', '-v', '-d', '../gitian.sigs.ltc/', '-r', args.version+'-osx-unsigned', '../asspennies/contrib/gitian-descriptors/gitian-osx.yml'])
     print('\nVerifying v'+args.version+' Signed Windows\n')
-    subprocess.check_call(['bin/gverify', '-v', '-d', '../gitian.sigs.ltc/', '-r', args.version+'-win-signed', '../ass-pennies/contrib/gitian-descriptors/gitian-win-signer.yml'])
+    subprocess.check_call(['bin/gverify', '-v', '-d', '../gitian.sigs.ltc/', '-r', args.version+'-win-signed', '../asspennies/contrib/gitian-descriptors/gitian-win-signer.yml'])
     print('\nVerifying v'+args.version+' Signed MacOS\n')
-    subprocess.check_call(['bin/gverify', '-v', '-d', '../gitian.sigs.ltc/', '-r', args.version+'-osx-signed', '../ass-pennies/contrib/gitian-descriptors/gitian-osx-signer.yml'])
+    subprocess.check_call(['bin/gverify', '-v', '-d', '../gitian.sigs.ltc/', '-r', args.version+'-osx-signed', '../asspennies/contrib/gitian-descriptors/gitian-osx-signer.yml'])
 
     os.chdir(workdir)
 
@@ -140,7 +140,7 @@ def main():
     parser = argparse.ArgumentParser(usage='%(prog)s [options] signer version')
     parser.add_argument('-c', '--commit', action='store_true', dest='commit', help='Indicate that the version argument is for a commit or branch')
     parser.add_argument('-p', '--pull', action='store_true', dest='pull', help='Indicate that the version argument is the number of a github repository pull request')
-    parser.add_argument('-u', '--url', dest='url', default='https://github.com/ass-pennies-project/ass-pennies', help='Specify the URL of the repository. Default is %(default)s')
+    parser.add_argument('-u', '--url', dest='url', default='https://github.com/asspennies-project/asspennies', help='Specify the URL of the repository. Default is %(default)s')
     parser.add_argument('-v', '--verify', action='store_true', dest='verify', help='Verify the Gitian build')
     parser.add_argument('-b', '--build', action='store_true', dest='build', help='Do a Gitian build')
     parser.add_argument('-s', '--sign', action='store_true', dest='sign', help='Make signed binaries for Windows and MacOS')
@@ -208,10 +208,10 @@ def main():
     if args.setup:
         setup()
 
-    os.chdir('ass-pennies')
+    os.chdir('asspennies')
     if args.pull:
         subprocess.check_call(['git', 'fetch', args.url, 'refs/pull/'+args.version+'/merge'])
-        os.chdir('../gitian-builder/inputs/ass-pennies')
+        os.chdir('../gitian-builder/inputs/asspennies')
         subprocess.check_call(['git', 'fetch', args.url, 'refs/pull/'+args.version+'/merge'])
         args.commit = subprocess.check_output(['git', 'show', '-s', '--format=%H', 'FETCH_HEAD'], universal_newlines=True, encoding='utf8').strip()
         args.version = 'pull-' + args.version

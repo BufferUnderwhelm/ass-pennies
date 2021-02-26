@@ -1,25 +1,25 @@
-Ass-Pennies Core version 0.17.1 is now available from:
+AssPennies Core version 0.17.1 is now available from:
 
-  <https://download.ass-pennies.org/ass-pennies-0.17.1/>
+  <https://download.asspennies.org/asspennies-0.17.1/>
 
 This is a new major version release, including new features, various bugfixes
 and performance improvements, as well as updated translations.
 
 Please report bugs using the issue tracker at GitHub:
 
-  <https://github.com/ass-pennies-project/ass-pennies/issues>
+  <https://github.com/asspennies-project/asspennies/issues>
 
 To receive security and update notifications, please subscribe to:
 
-  <https://groups.google.com/forum/#!forum/ass-pennies-dev>
+  <https://groups.google.com/forum/#!forum/asspennies-dev>
 
 How to Upgrade
 ==============
 
 If you are running an older version, shut it down. Wait until it has completely
 shut down (which might take a few minutes for older versions), then run the
-installer (on Windows) or just copy over `/Applications/Ass-Pennies-Qt` (on Mac)
-or `ass-penniesd`/`ass-pennies-qt` (on Linux).
+installer (on Windows) or just copy over `/Applications/AssPennies-Qt` (on Mac)
+or `asspenniesd`/`asspennies-qt` (on Linux).
 
 If your node has a txindex, the txindex db will be migrated the first time you run 0.17.0 or newer, which may take up to a few hours. Your node will not be functional until this migration completes.
 
@@ -46,10 +46,10 @@ processing the entire blockchain.
 Compatibility
 ==============
 
-Ass-Pennies Core is extensively tested on multiple operating systems using
+AssPennies Core is extensively tested on multiple operating systems using
 the Linux kernel, macOS 10.10+, and Windows 7 and newer (Windows XP is not supported).
 
-Ass-Pennies Core should also work on most other Unix-like systems but is not
+AssPennies Core should also work on most other Unix-like systems but is not
 frequently tested on them.
 
 From 0.17.0 onwards macOS <10.10 is no longer supported. 0.17.0 is built using Qt 5.9.x, which doesn't
@@ -71,7 +71,7 @@ Notable changes
 The `listtransactions` RPC `account` parameter which was deprecated in 0.17.0
 and renamed to `dummy` has been un-deprecated and renamed again to `label`.
 
-When ass-pennies is configured with the `-deprecatedrpc=accounts` setting, specifying
+When asspennies is configured with the `-deprecatedrpc=accounts` setting, specifying
 a label/account/dummy argument will return both outgoing and incoming
 transactions. Without the `-deprecatedrpc=accounts` setting, it will only return
 incoming transactions (because it used to be possible to create transactions
@@ -87,7 +87,7 @@ Changed configuration options
 -----------------------------
 
 - `-includeconf=<file>` can be used to include additional configuration files.
-  Only works inside the `ass-pennies.conf` file, not inside included files or from
+  Only works inside the `asspennies.conf` file, not inside included files or from
   command-line. Multiple files may be included. Can be disabled from command-
   line via `-noincludeconf`. Note that multi-argument commands like
   `-includeconf` will override preceding `-noincludeconf`, i.e.
@@ -96,7 +96,7 @@ Changed configuration options
   includeconf=relative.conf
   ```
 
-  as ass-pennies.conf will still include `relative.conf`.
+  as asspennies.conf will still include `relative.conf`.
 
 GUI changes
 -----------
@@ -127,7 +127,7 @@ same as before.
 Dynamic loading and creation of wallets
 ---------------------------------------
 
-Previously, wallets could only be loaded or created at startup, by specifying `-wallet` parameters on the command line or in the ass-pennies.conf file. It is now possible to load, create and unload wallets dynamically at runtime:
+Previously, wallets could only be loaded or created at startup, by specifying `-wallet` parameters on the command line or in the asspennies.conf file. It is now possible to load, create and unload wallets dynamically at runtime:
 
 - Existing wallets can be loaded by calling the `loadwallet` RPC. The wallet can be specified as file/directory basename (which must be located in the `walletdir` directory), or as an absolute path to a file/directory.
 - New wallets can be created (and loaded) by calling the `createwallet` RPC. The provided name must not match a wallet file in the `walletdir` directory or the name of a wallet that is currently loaded.
@@ -154,8 +154,8 @@ It is now possible for a single configuration file to set different
 options for different networks. This is done by using sections or by
 prefixing the option with the network, such as:
 
-    main.uacomment=ass-pennies
-    test.uacomment=ass-pennies-testnet
+    main.uacomment=asspennies
+    test.uacomment=asspennies-testnet
     regtest.uacomment=regtest
     [main]
     mempoolsize=300
@@ -174,7 +174,7 @@ outside of sections.
 
 A new 'label' API has been introduced for the wallet. This is intended as a
 replacement for the deprecated 'account' API. The 'account' can continue to
-be used in V0.17 by starting ass-penniesd with the '-deprecatedrpc=accounts'
+be used in V0.17 by starting asspenniesd with the '-deprecatedrpc=accounts'
 argument, and will be fully removed in V0.18.
 
 The label RPC methods mirror the account functionality, with the following functional differences:
@@ -207,21 +207,21 @@ Here are the changes to RPC methods:
 | `listtransactions`     | The `account` named parameter has been renamed to `dummy`. If provided, the `dummy` parameter must be set to the string `*`, unless running with the `-deprecatedrpc=accounts` argument (in which case functionality is unchanged). |
 | `getbalance`           | `account`, `minconf` and `include_watchonly` parameters are deprecated, and can only be used if running with '-deprecatedrpc=accounts' |
 
-BIP 174 Partially Signed Ass-Pennies Transactions support
+BIP 174 Partially Signed AssPennies Transactions support
 -----------------------------------------------------
 
-[BIP 174 PSBT](https://github.com/bitcoin/bips/blob/master/bip-0174.mediawiki) is an interchange format for Ass-Pennies transactions that are not fully signed
+[BIP 174 PSBT](https://github.com/bitcoin/bips/blob/master/bip-0174.mediawiki) is an interchange format for AssPennies transactions that are not fully signed
 yet, together with relevant metadata to help entities work towards signing it.
 It is intended to simplify workflows where multiple parties need to cooperate to
 produce a transaction. Examples include hardware wallets, multisig setups, and
 [CoinJoin](https://bitcointalk.org/?topic=279249) transactions.
 
-For backend RPC convenience, the Ass-Pennies devs have supported to keep the acronym `PSBT`
+For backend RPC convenience, the AssPennies devs have supported to keep the acronym `PSBT`
 instead of `PSLT` to make crosschain application support easier.
 
 ### Overall workflow
 
-Overall, the construction of a fully signed Ass-Pennies transaction goes through the
+Overall, the construction of a fully signed AssPennies transaction goes through the
 following steps:
 
 - A **Creator** proposes a particular transaction to be created. He constructs
@@ -236,7 +236,7 @@ following steps:
   partial signature for the inputs for which they have relevant key(s).
 - A **Finalizer** is run for each input to convert the partial signatures and
   possibly script information into a final `scriptSig` and/or `scriptWitness`.
-- An **Extractor** produces a valid Ass-Pennies transaction (in network format)
+- An **Extractor** produces a valid AssPennies transaction (in network format)
   from a PSBT for which all inputs are finalized.
 
 Generally, each of the above (excluding Creator and Extractor) will simply
@@ -282,7 +282,7 @@ hardware implementations will typically implement multiple roles simultaneously.
 Upgrading non-HD wallets to HD wallets
 --------------------------------------
 
-Since Ass-Pennies Core 0.13.0, creating new BIP 32 Hierarchical Deterministic wallets has been supported by Ass-Pennies Core but old non-HD wallets could not be upgraded to HD. Now non-HD wallets can be upgraded to HD using the `-upgradewallet` command line option. This upgrade will result in the all keys in the keypool being marked as used and a new keypool generated. **A new backup must be made when this upgrade is performed.**
+Since AssPennies Core 0.13.0, creating new BIP 32 Hierarchical Deterministic wallets has been supported by AssPennies Core but old non-HD wallets could not be upgraded to HD. Now non-HD wallets can be upgraded to HD using the `-upgradewallet` command line option. This upgrade will result in the all keys in the keypool being marked as used and a new keypool generated. **A new backup must be made when this upgrade is performed.**
 
 Additionally, `-upgradewallet` can be used to upgraded from a non-split HD chain (all keys generated with `m/0'/0'/i'`) to a split HD chain (receiving keys generated with `'m/0'/0'/i'` and change keys generated with `m'/0'/1'/i'`). When this upgrade occurs, all keys already in the keypool will remain in the keypool to be used until all keys from before the upgrade are exhausted. This is to avoid issues with backups and downgrades when some keys may come from the change key keypool. Users can begin using the new split HD chain keypools by using the `newkeypool` RPC to mark all keys in the keypool as used and begin using a new keypool generated from the split HD chain.
 
@@ -316,9 +316,9 @@ Low-level RPC changes
    `fee`, `modifiedfee`, `ancestorfee` and `descendantfee`.
 - The new RPC `getzmqnotifications` returns information about active ZMQ
   notifications.
-- When ass-pennies is not started with any `-wallet=<path>` options, the name of
+- When asspennies is not started with any `-wallet=<path>` options, the name of
   the default wallet returned by `getwalletinfo` and `listwallets` RPCs is
-  now the empty string `""` instead of `"wallet.dat"`. If ass-pennies is started
+  now the empty string `""` instead of `"wallet.dat"`. If asspennies is started
   with any `-wallet=<path>` options, there is no change in behavior, and the
   name of any wallet is just its `<path>` string.
 - Passing an empty string (`""`) as the `address_type` parameter to
@@ -348,7 +348,7 @@ Low-level RPC changes
   `pubkeys`, `sigsrequired`, `pubkey`, `addresses`, `embedded`, `iscompressed`,
   `account`, `timestamp`, `hdkeypath`, `hdmasterkeyid`.
 - `signrawtransaction` is deprecated and will be fully removed in v0.18. To use
-  `signrawtransaction` in v0.17, restart ass-penniesd with
+  `signrawtransaction` in v0.17, restart asspenniesd with
   `-deprecatedrpc=signrawtransaction`. Projects should transition to using
   `signrawtransactionwithkey` and `signrawtransactionwithwallet` before
   upgrading to v0.18.
@@ -362,7 +362,7 @@ Other API changes
 
 - The log timestamp format is now ISO 8601 (e.g. "2018-02-28T12:34:56Z").
 
-- When running ass-penniesd with `-debug` but without `-daemon`, logging to stdout
+- When running asspenniesd with `-debug` but without `-daemon`, logging to stdout
   is now the default behavior. Setting `-printtoconsole=1` no longer implicitly
   disables logging to debug.log. Instead, logging to file can be explicitly disabled
   by setting `-debuglogfile=0`.
@@ -371,7 +371,7 @@ Transaction index changes
 -------------------------
 
 The transaction index is now built separately from the main node procedure,
-meaning the `-txindex` flag can be toggled without a full reindex. If ass-penniesd
+meaning the `-txindex` flag can be toggled without a full reindex. If asspenniesd
 is run with `-txindex` on a node that is already partially or fully synced
 without one, the transaction index will be built in the background and become
 available once caught up. When switching from running `-txindex` to running

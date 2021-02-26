@@ -90,8 +90,8 @@
         <translation>Vhura &amp;URI</translation>
     </message>
     <message>
-        <source>Ass-Pennies</source>
-        <translation>Ass-Pennies</translation>
+        <source>AssPennies</source>
+        <translation>AssPennies</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -153,8 +153,8 @@
 <context>
     <name>Intro</name>
     <message>
-        <source>Ass-Pennies</source>
-        <translation>Ass-Pennies</translation>
+        <source>AssPennies</source>
+        <translation>AssPennies</translation>
     </message>
     </context>
 <context>
@@ -182,8 +182,8 @@
         <translation>Marii </translation>
     </message>
     <message>
-        <source>Enter a Ass-Pennies address (e.g. %1)</source>
-        <translation>Nyora kero ye Ass-Pennies (sekuti %1)</translation>
+        <source>Enter a AssPennies address (e.g. %1)</source>
+        <translation>Nyora kero ye AssPennies (sekuti %1)</translation>
     </message>
     <message>
         <source>%1 d</source>

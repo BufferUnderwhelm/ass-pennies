@@ -1,5 +1,5 @@
 ---
-name: "ass-pennies-dmg-signer"
+name: "asspennies-dmg-signer"
 suites:
 - "bionic"
 architectures:
@@ -7,10 +7,10 @@ architectures:
 packages:
 - "faketime"
 remotes:
-- "url": "https://github.com/ass-pennies-project/ass-pennies-detached-sigs.git"
+- "url": "https://github.com/asspennies-project/asspennies-detached-sigs.git"
   "dir": "signature"
 files:
-- "ass-pennies-osx-unsigned.tar.gz"
+- "asspennies-osx-unsigned.tar.gz"
 script: |
   set -e -o pipefail
 
@@ -29,8 +29,8 @@ script: |
     chmod +x ${WRAP_DIR}/${prog}
   done
 
-  UNSIGNED=ass-pennies-osx-unsigned.tar.gz
-  SIGNED=ass-pennies-osx-signed.dmg
+  UNSIGNED=asspennies-osx-unsigned.tar.gz
+  SIGNED=asspennies-osx-signed.dmg
 
   tar -xf ${UNSIGNED}
   OSX_VOLNAME="$(cat osx_volname)"

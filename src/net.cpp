@@ -1445,7 +1445,7 @@ static void ThreadMapPort()
             }
         }
 
-        std::string strDesc = "Ass-Pennies " + FormatFullVersion();
+        std::string strDesc = "AssPennies " + FormatFullVersion();
 
         do {
 #ifndef UPNPDISCOVER_SUCCESS

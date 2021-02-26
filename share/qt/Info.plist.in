@@ -29,16 +29,16 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>Ass-Pennies-Qt</string>
+  <string>AssPennies-Qt</string>
   
   <key>CFBundleName</key>
-  <string>Ass-Pennies-Qt</string>
+  <string>AssPennies-Qt</string>
 
   <key>LSHasLocalizedDisplayName</key>
   <true/>
 
   <key>CFBundleIdentifier</key>
-  <string>org.ass-pennies.Ass-Pennies-Qt</string>
+  <string>org.asspennies.AssPennies-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -46,10 +46,10 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>org.ass-pennies.Ass-PenniesPayment</string>
+      <string>org.asspennies.AssPenniesPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
-        <string>ass-pennies</string>
+        <string>asspennies</string>
       </array>
     </dict>
   </array>
@@ -58,9 +58,9 @@
   <array>
     <dict>
       <key>UTTypeIdentifier</key>
-      <string>org.ass-pennies.paymentrequest</string>
+      <string>org.asspennies.paymentrequest</string>
       <key>UTTypeDescription</key>
-      <string>Ass-Pennies payment request</string>
+      <string>AssPennies payment request</string>
       <key>UTTypeConformsTo</key>
       <array>
         <string>public.data</string>
@@ -68,10 +68,10 @@
       <key>UTTypeTagSpecification</key>
       <dict>
         <key>public.mime-type</key>
-        <string>application/x-ass-pennies-payment-request</string>
+        <string>application/x-asspennies-payment-request</string>
         <key>public.filename-extension</key>
         <array>
-          <string>ass-penniespaymentrequest</string>
+          <string>asspenniespaymentrequest</string>
         </array>
       </dict>
     </dict>
@@ -84,7 +84,7 @@
       <string>Editor</string>
       <key>LSItemContentTypes</key>
       <array>
-        <string>org.ass-pennies.paymentrequest</string>
+        <string>org.asspennies.paymentrequest</string>
       </array>
       <key>LSHandlerRank</key>
       <string>Owner</string>

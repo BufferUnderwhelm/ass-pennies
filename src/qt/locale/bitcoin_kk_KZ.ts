@@ -70,7 +70,7 @@
         <translation>Құпия сөзді өзгерту</translation>
     </message>
     <message>
-        <source>Ass-Pennies</source>
+        <source>AssPennies</source>
         <translation>Биткоин</translation>
     </message>
     <message>
@@ -165,7 +165,7 @@
 <context>
     <name>Intro</name>
     <message>
-        <source>Ass-Pennies</source>
+        <source>AssPennies</source>
         <translation>Биткоин</translation>
     </message>
     <message>

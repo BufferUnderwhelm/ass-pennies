@@ -1,25 +1,25 @@
-Ass-Pennies Core version *0.15.1* is now available from:
+AssPennies Core version *0.15.1* is now available from:
 
-  <https://download.ass-pennies.org/ass-pennies-0.15.1/>
+  <https://download.asspennies.org/asspennies-0.15.1/>
 
 This is a new minor version release, including various bugfixes and
 performance improvements, as well as updated translations.
 
 Please report bugs using the issue tracker at GitHub:
 
-  <https://github.com/ass-pennies-project/ass-pennies/issues>
+  <https://github.com/asspennies-project/asspennies/issues>
 
 To receive security and update notifications, please subscribe to:
 
-  <https://groups.google.com/forum/#!forum/ass-pennies-dev>
+  <https://groups.google.com/forum/#!forum/asspennies-dev>
 
 How to Upgrade
 ==============
 
 If you are running an older version, shut it down. Wait until it has completely
 shut down (which might take a few minutes for older versions), then run the 
-installer (on Windows) or just copy over `/Applications/Ass-Pennies-Qt` (on Mac)
-or `ass-penniesd`/`ass-pennies-qt` (on Linux).
+installer (on Windows) or just copy over `/Applications/AssPennies-Qt` (on Mac)
+or `asspenniesd`/`asspennies-qt` (on Linux).
 
 The first time you run version 0.15.0 or higher, your chainstate database will
 be converted to a new format, which will take anywhere from a few minutes to
@@ -48,10 +48,10 @@ processing the entire blockchain.
 Compatibility
 ==============
 
-Ass-Pennies Core is extensively tested on multiple operating systems using
+AssPennies Core is extensively tested on multiple operating systems using
 the Linux kernel, macOS 10.8+, and Windows Vista and later. Windows XP is not supported.
 
-Ass-Pennies Core should also work on most other Unix-like systems but is not
+AssPennies Core should also work on most other Unix-like systems but is not
 frequently tested on them.
 
 
@@ -61,7 +61,7 @@ Notable changes
 Network fork safety enhancements
 --------------------------------
 
-A number of changes to the way Ass-Pennies Core deals with peer connections and invalid blocks
+A number of changes to the way AssPennies Core deals with peer connections and invalid blocks
 have been made, as a safety precaution against blockchain forks and misbehaving peers.
 
 - Unrequested blocks with less work than the minimum-chain-work are now no longer processed even

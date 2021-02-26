@@ -1,41 +1,41 @@
-Ass-Pennies Core
+AssPennies Core
 =============
 
 Setup
 ---------------------
-Ass-Pennies Core is the original Ass-Pennies client and it builds the backbone of the network. It downloads and, by default, stores the entire history of Ass-Pennies transactions, which requires approximately 22 gigabytes of disk space. Depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
+AssPennies Core is the original AssPennies client and it builds the backbone of the network. It downloads and, by default, stores the entire history of AssPennies transactions, which requires approximately 22 gigabytes of disk space. Depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
 
-To download Ass-Pennies Core, visit [ass-pennies.org](https://ass-pennies.org/).
+To download AssPennies Core, visit [asspennies.org](https://asspennies.org/).
 
 Running
 ---------------------
-The following are some helpful notes on how to run Ass-Pennies Core on your native platform.
+The following are some helpful notes on how to run AssPennies Core on your native platform.
 
 ### Unix
 
 Unpack the files into a directory and run:
 
-- `bin/ass-pennies-qt` (GUI) or
-- `bin/ass-penniesd` (headless)
+- `bin/asspennies-qt` (GUI) or
+- `bin/asspenniesd` (headless)
 
 ### Windows
 
-Unpack the files into a directory, and then run ass-pennies-qt.exe.
+Unpack the files into a directory, and then run asspennies-qt.exe.
 
 ### macOS
 
-Drag Ass-Pennies Core to your applications folder, and then run Ass-Pennies Core.
+Drag AssPennies Core to your applications folder, and then run AssPennies Core.
 
 ### Need Help?
 
-* See the documentation at the [Ass-Pennies Wiki](https://ass-pennies.info/)
+* See the documentation at the [AssPennies Wiki](https://asspennies.info/)
 for help and more information.
-* Ask for help on [#ass-pennies](http://webchat.freenode.net?channels=ass-pennies) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=ass-pennies).
-* Ask for help on the [Ass-PenniesTalk](https://ass-penniestalk.io/) forums, in the [Technical Support section](https://ass-penniestalk.io/c/technical-support).
+* Ask for help on [#asspennies](http://webchat.freenode.net?channels=asspennies) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=asspennies).
+* Ask for help on the [AssPenniesTalk](https://asspenniestalk.io/) forums, in the [Technical Support section](https://asspenniestalk.io/c/technical-support).
 
 Building
 ---------------------
-The following are developer notes on how to build Ass-Pennies Core on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build AssPennies Core on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [Dependencies](dependencies.md)
 - [macOS Build Notes](build-osx.md)
@@ -48,7 +48,7 @@ The following are developer notes on how to build Ass-Pennies Core on your nativ
 
 Development
 ---------------------
-The Ass-Pennies repo's [root README](/README.md) contains relevant information on the development process and automated testing.
+The AssPennies repo's [root README](/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Productivity Notes](productivity.md)
@@ -64,8 +64,8 @@ The Ass-Pennies repo's [root README](/README.md) contains relevant information o
 - [Benchmarking](benchmarking.md)
 
 ### Resources
-* Discuss on the [Ass-PenniesTalk](https://ass-penniestalk.io/) forums.
-* Discuss general Ass-Pennies development on #ass-pennies-dev on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=ass-pennies-dev.
+* Discuss on the [AssPenniesTalk](https://asspenniestalk.io/) forums.
+* Discuss general AssPennies development on #asspennies-dev on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=asspennies-dev.
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

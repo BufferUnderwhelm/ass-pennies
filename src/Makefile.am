@@ -82,18 +82,18 @@ TESTS =
 BENCHMARKS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += ass-penniesd
+  bin_PROGRAMS += asspenniesd
 endif
 
 if BUILD_BITCOIN_CLI
-  bin_PROGRAMS += ass-pennies-cli
+  bin_PROGRAMS += asspennies-cli
 endif
 if BUILD_BITCOIN_TX
-  bin_PROGRAMS += ass-pennies-tx
+  bin_PROGRAMS += asspennies-tx
 endif
 if ENABLE_WALLET
 if BUILD_BITCOIN_WALLET
-  bin_PROGRAMS += ass-pennies-wallet
+  bin_PROGRAMS += asspennies-wallet
 endif
 endif
 
@@ -485,16 +485,16 @@ nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
 # bitcoind binary #
-ass-penniesd_SOURCES = bitcoind.cpp
-ass-penniesd_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-ass-penniesd_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-ass-penniesd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+asspenniesd_SOURCES = bitcoind.cpp
+asspenniesd_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+asspenniesd_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+asspenniesd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-ass-penniesd_SOURCES += bitcoind-res.rc
+asspenniesd_SOURCES += bitcoind-res.rc
 endif
 
-ass-penniesd_LDADD = \
+asspenniesd_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_WALLET) \
   $(LIBBITCOIN_SERVER) \
@@ -509,38 +509,38 @@ ass-penniesd_LDADD = \
   $(LIBMEMENV) \
   $(LIBSECP256K1)
 
-ass-penniesd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS)
+asspenniesd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS)
 
 # bitcoin-cli binary #
-ass-pennies_cli_SOURCES = bitcoin-cli.cpp
-ass-pennies_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
-ass-pennies_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-ass-pennies_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+asspennies_cli_SOURCES = bitcoin-cli.cpp
+asspennies_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
+asspennies_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+asspennies_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-ass-pennies_cli_SOURCES += bitcoin-cli-res.rc
+asspennies_cli_SOURCES += bitcoin-cli-res.rc
 endif
 
-ass-pennies_cli_LDADD = \
+asspennies_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_UTIL) \
   $(LIBBITCOIN_CRYPTO)
 
-ass-pennies_cli_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
+asspennies_cli_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
 #
 
 # bitcoin-tx binary #
-ass-pennies_tx_SOURCES = bitcoin-tx.cpp
-ass-pennies_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-ass-pennies_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-ass-pennies_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+asspennies_tx_SOURCES = bitcoin-tx.cpp
+asspennies_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+asspennies_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+asspennies_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-ass-pennies_tx_SOURCES += bitcoin-tx-res.rc
+asspennies_tx_SOURCES += bitcoin-tx-res.rc
 endif
 
-ass-pennies_tx_LDADD = \
+asspennies_tx_LDADD = \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
@@ -548,20 +548,20 @@ ass-pennies_tx_LDADD = \
   $(LIBBITCOIN_CRYPTO) \
   $(LIBSECP256K1)
 
-ass-pennies_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
+asspennies_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
 #
 
 # bitcoin-wallet binary #
-ass-pennies_wallet_SOURCES = bitcoin-wallet.cpp
-ass-pennies_wallet_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-ass-pennies_wallet_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-ass-pennies_wallet_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+asspennies_wallet_SOURCES = bitcoin-wallet.cpp
+asspennies_wallet_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+asspennies_wallet_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+asspennies_wallet_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-ass-pennies_wallet_SOURCES += bitcoin-wallet-res.rc
+asspennies_wallet_SOURCES += bitcoin-wallet-res.rc
 endif
 
-ass-pennies_wallet_LDADD = \
+asspennies_wallet_LDADD = \
   $(LIBBITCOIN_WALLET_TOOL) \
   $(LIBBITCOIN_WALLET) \
   $(LIBBITCOIN_SERVER) \
@@ -574,7 +574,7 @@ ass-pennies_wallet_LDADD = \
   $(LIBMEMENV) \
   $(LIBSECP256K1)
 
-ass-pennies_wallet_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
+asspennies_wallet_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
 #
 
 # bitcoinconsensus library #

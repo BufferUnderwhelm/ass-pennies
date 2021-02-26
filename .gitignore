@@ -1,14 +1,14 @@
 *.tar.gz
 
 *.exe
-src/ass-pennies
-src/ass-penniesd
-src/ass-pennies-cli
-src/ass-pennies-tx
-src/ass-pennies-wallet
-src/test/test_ass-pennies
-src/test/test_ass-pennies_fuzzy
-src/qt/test/test_ass-pennies-qt
+src/asspennies
+src/asspenniesd
+src/asspennies-cli
+src/asspennies-tx
+src/asspennies-wallet
+src/test/test_asspennies
+src/test/test_asspennies_fuzzy
+src/qt/test/test_asspennies-qt
 
 # autoreconf
 Makefile.in
@@ -83,13 +83,13 @@ src/qt/bitcoin-qt.includes
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
-ass-pennies-qt
-ass-pennies-Qt.app
+asspennies-qt
+asspennies-Qt.app
 background.tiff*
 
 # Unit-tests
 Makefile.test
-ass-pennies-qt_test
+asspennies-qt_test
 
 # Resources cpp
 qrc_*.cpp
@@ -101,7 +101,7 @@ build
 *.gcno
 *.gcda
 /*.info
-test_ass-pennies.coverage/
+test_asspennies.coverage/
 total.coverage/
 coverage_percent.txt
 
